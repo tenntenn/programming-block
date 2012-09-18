@@ -1,0 +1,19 @@
+svg {
+	background: white;
+    width: 500px;
+    height: 500px;
+}
+
+@mixin shape {
+    fill: none;
+    stroke:black;
+    stroke-width:3;	
+}
+
+path {
+	@include shape;
+}
+
+circle {
+	@include shape;
+}
