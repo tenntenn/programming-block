@@ -1,0 +1,26 @@
+{{define "index"}}
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Test</title>
+  </head>
+  <body>
+
+	<div data-bind="template: { name: 'svg-template'}"></div>
+	<script id="svg-template" type="image/svg+xml">
+      <svg>
+        <path data-bind="shape:path"/>
+        <circle data-bind="shape:circle"/>
+      </svg>
+	</script>​
+
+	
+	<!-- Scripts -->
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/knockout-2.1.0.js"></script>
+	<script data-main="js/main" src="js/require.js"></script>
+  </body>
+</html>
+{{end}}
