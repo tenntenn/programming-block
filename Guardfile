@@ -8,17 +8,15 @@ guard :shell do
   watch(/^(.+\/)*.+(\.scss)$/) {
     |m|
 		`sass --scss scss/main.scss dist/css/main.css`
+        `growlnotify -m "parse scss"`
   }
 end
 
-# その他のファイルの監視
+# テンプレートファイルの監視
 guard :shell do
   watch(/^(.+\/)*.+(\.html)$/) {
     |m|
-    dist = "dist/" + m[0]
-        dir = `dirname #{dist}`
-        `mkdir -p #{dir}`
-    `cp #{m[0]} #{dist}`
-    `growlnotify -m "copy #{m[0]} to #{dist}"`
+    `./template -p "templates/*.html" -t "index" > dist/index.html`
+    `growlnotify -m "parse templates"`
   }
 end

@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-    flag.Parse()
 
     var pattern string
     flag.StringVar(&pattern, "p", "templates/*.html", "template pattern like template/*.html")
