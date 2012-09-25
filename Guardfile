@@ -8,17 +8,38 @@ guard :shell do
   watch(/^(.+\/)*.+(\.scss)$/) {
     |m|
         `mkdir -p dist/css`
-		`sass --scss scss/main.scss dist/css/main.css`
-        `growlnotify -m "parse scss"`
+        `sass --scss scss/main.scss dist/css/main.css`
   }
 end
 
-# テンプレートファイルの監視
+# HTMLテンプレートファイルの監視
 guard :shell do
-  watch(/^(.+\/)*.+(\.html)$/) {
+  watch(/^templates\/html\/(.+\/)*.+(\.html|\.json)$/) {
     |m|
     `mkdir -p dist`
-    `./template -p "templates/*.html" -t "index" > dist/index.html`
-    `growlnotify -m "parse templates"`
+    `./template -p "templates/html/*.html" -t "index" -f templates/html/data.json > dist/index.html`
+ }
+end
+
+# CoffeeScriptテンプレートファイルの監視
+guard :shell do
+  watch(/^templates\/coffee\/(((.+\/)*.+)(\.coffee|\.json)$)/) {
+    |m|
+    dist = "coffee/" + m[1]
+    dir = `dirname #{dist}`
+    `mkdir -p #{dir}`
+    `./template -p "#{m[0]}" -t "#{m[2]}" -f templates/coffee/data.json > #{dist}`
+ }
+end
+
+
+# ライブラリの監視
+guard :shell do
+  watch(/^lib\/(.+\/)*.+(\.js|\.css|\.jpg|\.png)$/) {
+    |m|
+    dist = "dist/" + m[0]
+    dir = `dirname #{dist}`
+    `mkdir -p #{dir}`
+    `cp #{m[0]} #{dist}`
   }
 end
