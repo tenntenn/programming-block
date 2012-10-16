@@ -3,16 +3,25 @@ var width = 960,
 
 var color = d3.scale.category20();
 
+
+// 対象のオブジェクト
+var circleModel = {
+    cx: 100,
+    cy: 200,
+    r: 10
+};
+
 var force = d3.layout.force()
-    .charge(-120)
-    .linkDistance(30)
+    .charge(0)
+    .gravity(0.1)
+    .linkDistance(60)
     .size([width, height]);
 
 var svg = d3.select("#chart").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("miserables.json", function(json) {
+d3.json("data.json", function(json) {
   force
       .nodes(json.nodes)
       .links(json.links)
@@ -28,7 +37,7 @@ d3.json("miserables.json", function(json) {
       .data(json.nodes)
     .enter().append("circle")
       .attr("class", "node")
-      .attr("r", 5)
+      .attr("r", 30)
       .style("fill", function(d) { return color(d.group); })
       .call(force.drag);
 
