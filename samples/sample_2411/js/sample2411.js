@@ -52,43 +52,20 @@
         y: 200,
     };
 
+    var XPanel = function(blockNode, block, panel, index) {
+        blockNode.append("svg:rect")
+        .classed("panel", true)
+        .attr("x",(index % block.col) * panelSize)
+        .attr("y", (Math.floor(index / block.col)) * panelSize) 
+        .attr("width", panelSize)
+        .attr("height", panelSize);
+
+    };
+
     var blocks = [block1, block2];
 
     var svg = d3.select("#main-svg");
     var panelSize = 20;
-
-    var dragmove = function(block) {
-        block.x = d3.event.x;
-        block.y = d3.event.y;
-        d3.select(this)
-        .attr("transform", "translate("+block.x+","+block.y+")"); 
-    };
-
-    var dragstart = function(block) {
-        d3.select(this)
-        .classed("dragging", true)
-        .attr("filter", "url(#filter-dragging)");
-
-        d3.selectAll(".block")
-        .sort(function(block1, block2) {
-            if (block === block1) {
-                return 1;
-            }
-            return 0;
-        });
-    };
-
-    var dragend = function(block) {
-        d3.select(this)
-        .classed("dragging", false)
-        .attr("filter", "");
-    };    
-
-    var drag = d3.behavior.drag()
-    .origin(Object)
-    .on("drag", dragmove)
-    .on("dragstart", dragstart)
-    .on("dragend", dragend);
 
     svg.selectAll(".block")
     .data(blocks)
@@ -108,32 +85,28 @@
         return block.row * panelSize;
     })
     .attr("filter", "")
-    .call(drag)
-    .each(function(block, index) {
-        var blockID = "block-"+index;
-        var blockNode = d3.select("#"+blockID);
-        blockNode.selectAll(".panel") 
-        .data(block.panels)
-        .enter()
-        .append("svg:rect")
-        .classed("panel", true)
-        .attr("x",function(panel, index){
-            return (index % block.col) * panelSize; 
-        })
-        .attr("y", function(panel, index) {
-            return (Math.floor(index / block.col)) * panelSize;
-        })
-        .attr("width", function() {
-            return panelSize;
-        })
-        .attr("height", function() {
-            return panelSize;
-        });
+    .on("click", function() {
+        d3.select(this)
+        .classed("selected", true)
+        .attr("filter", "url(#filter-selected)");
 
-        blockNode.selectAll(".panel")
-        .filter(function(panel) {
-            return panel == _;
-        })
-        .remove();
+        d3.selectAll(".block")
+        .sort(function(block1, block2) {
+            if (block === block1) {
+                return 1;
+            }
+            return 0;
+        });
+     })
+    .each(function(block, index) {
+
+        var blockID = "block-"+index;
+        
+        var blockNode = d3.select("#"+blockID);
+        block.panels.map(function(panel, index) {
+            if (panel != _) {
+                XPanel(blockNode, block, panel, index);
+            }
+        });
      });
 })();
