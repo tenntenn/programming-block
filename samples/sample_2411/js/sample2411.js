@@ -63,9 +63,32 @@
         d3.select(this)
         .attr("transform", "translate("+block.x+","+block.y+")"); 
     };
+
+    var dragstart = function(block) {
+        d3.select(this)
+        .classed("dragging", true)
+        .attr("filter", "url(#filter-dragging)");
+
+        d3.selectAll(".block")
+        .sort(function(block1, block2) {
+            if (block === block1) {
+                return 1;
+            }
+            return 0;
+        });
+    };
+
+    var dragend = function(block) {
+        d3.select(this)
+        .classed("dragging", false)
+        .attr("filter", "");
+    };    
+
     var drag = d3.behavior.drag()
     .origin(Object)
-    .on("drag", dragmove);
+    .on("drag", dragmove)
+    .on("dragstart", dragstart)
+    .on("dragend", dragend);
 
     svg.selectAll(".block")
     .data(blocks)
@@ -84,6 +107,7 @@
     .attr("height", function(block) {
         return block.row * panelSize;
     })
+    .attr("filter", "")
     .call(drag)
     .each(function(block, index) {
         var blockID = "block-"+index;
@@ -104,9 +128,6 @@
         })
         .attr("height", function() {
             return panelSize;
-        })
-        .style("fill", function(panel) {
-           return "red";
         });
 
         blockNode.selectAll(".panel")

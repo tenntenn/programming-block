@@ -9,7 +9,15 @@
     <body>
 
         <svg id="main-svg">
-            
+            <defs>
+
+                <filter id="filter-dragging" >
+                    <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="5" />
+                    <feOffset result="offsetBlur" dx="5" dy="5" />
+                    <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
+                </filter>            
+
+           </defs>
         </svg>
 
         <script src="js/jquery-1.8.2.min.js"></script>

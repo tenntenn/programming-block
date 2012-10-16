@@ -1,8 +1,20 @@
+svg {
+    overflow: hidden;
+}
 #svg {
+
     width:500px;
     height:500px;
 }
 
 .block {
-   fill: blue; 
+    cursor: -webkit-grab;
+}
+
+.block .panel {
+    fill: red;
+}
+
+.dragging {
+    cursor: -webkit-grabbing;
 }
