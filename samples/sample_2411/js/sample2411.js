@@ -67,6 +67,19 @@
     var svg = d3.select("#main-svg");
     var panelSize = 20;
 
+
+    var viewBox = {
+        x: 0,
+        y: 0,
+        width: 500,
+        height: 500,
+        toString: function() {
+            return this.x + " " + this.y + " " + this.width + " " + this.height
+        }
+    };
+    svg
+    .attr("viewBox", viewBox.toString());    
+
     svg.selectAll(".block")
     .data(blocks)
     .enter()
@@ -85,18 +98,33 @@
         return block.row * panelSize;
     })
     .attr("filter", "")
-    .on("click", function() {
+    .on("click", function(block) {
+
+        d3.selectAll(".selected")
+        .classed("selected", false)
+        .attr("filter", "");
+
         d3.select(this)
         .classed("selected", true)
         .attr("filter", "url(#filter-selected)");
 
         d3.selectAll(".block")
-        .sort(function(block1, block2) {
-            if (block === block1) {
+        .sort(function(b1, b2) {
+            if (block === b1) {
                 return 1;
             }
             return 0;
         });
+
+        var w = block.col * panelSize;
+        var h = block.row * panelSize;
+        viewBox.x = block.x - (viewBox.width - w) /2;
+        viewBox.y = block.y - (viewBox.height - h) /2;
+        d3.select('#main-svg')
+        .transition()
+        .attr("viewBox", viewBox.toString());
+
+
      })
     .each(function(block, index) {
 
@@ -109,4 +137,39 @@
             }
         });
      });
+
+    // Add key listener
+    var render = function(dx, dy) {
+        d3.select('.selected')
+        .attr("transform", function(block){
+            block.x += dx;
+            block.y += dy;
+            return "translate("+block.x+","+block.y+")";
+        });
+        
+        viewBox.x += dx;
+        viewBox.y += dy;
+        d3.select('#main-svg')
+        .attr("viewBox", viewBox.toString());
+    };
+    $('html').keydown(function(e) {
+        switch(e.which) {
+            case 39: // right
+                render(panelSize, 0);
+                break;
+            case 37: // left
+                render(-panelSize, 0);
+                break;
+            case 38: // up
+                render(0, -panelSize);
+                break;
+            case 40: // down
+                render(0, panelSize);
+                break;
+            case 13: // endter
+                var selected = d3.select('.selected')
+                .classed("selected", false);
+                break;
+        }  
+    });
 })();
