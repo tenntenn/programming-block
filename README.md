@@ -1,10 +1,7 @@
 Programming Block
 ===============
 
-コンパイルに必要なソフト
+コンパイル方法
 ---------------
 
-+ ruby, ruby-gems, bundler
-+ golang
-+ coffeescript
-+ scss 
+    $./build.sh
