@@ -52,6 +52,15 @@
         y: 200,
     };
 
+    var getBoundingBox = function(block) {
+        return {
+            x1 : block.x,
+            y1 : block.y,
+            x2 : block.x + block.col * panelSize,
+            y2 : block.y + block.row * panelSize,
+        };
+    };
+
     var XPanel = function(blockNode, block, panel, index) {
         blockNode.append("svg:rect")
         .classed("panel", true)
@@ -138,6 +147,36 @@
         });
      });
 
+    var contains = function(bBox1, bBox2) {
+        
+        var result =  bBox1.x1 < bBox2.x2 &&
+                      bBox2.x1 < bBox1.x2 &&
+                      bBox1.y1 < bBox2.y2 &&
+                      bBox2.y1 < bBox1.y2;
+        return result;
+    };
+
+    // collision detection
+    var quadtree = d3.geom.quadtree(blocks);
+    var collistionBlock = function(quadtree, block) {
+        var collision = false;
+        var bBox1 = getBoundingBox(block);
+        quadtree.visit(function(node, x1, y1, x2, y2){
+            if (node.point && node.point !== block) {
+                var bBox2 = getBoundingBox(node.point);
+
+                if (contains(bBox1, bBox2)) {
+                    collision = true;
+                }
+            }
+
+            return x1 >= bBox1.x2 || y1 >= bBox1.y2 || x2 < bBox1.x1 || y2 < bBox1.y1;
+            
+        }); 
+
+        return collision;
+    };
+
     // Add key listener
     var render = function(dx, dy) {
         d3.select('.selected')
@@ -168,7 +207,14 @@
                 break;
             case 13: // endter
                 var selected = d3.select('.selected')
-                .classed("selected", false);
+                .call(function(blockNode){
+                    var block = blockNode.datum();
+                    if (!collistionBlock(quadtree, block)) {
+                        blockNode
+                        .classed("selected", false)
+                        .attr("filter", "");
+                    }
+                });
                 break;
         }  
     });
