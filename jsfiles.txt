@@ -1,5 +1,3 @@
 js/package.js
 js/view/view.js
-
 js/block.js
-js/blockTest.js
