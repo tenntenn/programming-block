@@ -31,7 +31,6 @@ func index(w http.ResponseWriter, r *http.Request) {
         strings.Split(strings.TrimSpace(jsfiles), " "),
     }
 
-    println(jsfiles)
     templates.ExecuteTemplate(w, "index", data)
 }
 

@@ -1,0 +1,11 @@
+body {
+    padding-top: 60px;
+}
+
+#view-mode {
+    height: 600px;
+}
+
+#block-mode {
+    height: 600px;
+}
