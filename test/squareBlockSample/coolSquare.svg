@@ -1,0 +1,5204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="565.7196"
+   height="832.31641"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="一応方陣.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="344.0842"
+     inkscape:cy="582.66567"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     gridtolerance="10"
+     fit-margin-top="1.1"
+     fit-margin-left="1.1"
+     fit-margin-right="1.1"
+     fit-margin-bottom="1.1"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3164"
+       empspacing="32"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.182738,-124.04578)">
+    <polygon
+       id="polygon3136"
+       points="0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,114.18274,380.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       transform="translate(113.18274,444.36219)"
+       id="g3309">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect3311" />
+      <g
+         id="g3313" />
+      <g
+         id="g3315" />
+      <g
+         id="g3317" />
+      <g
+         id="g3319" />
+      <g
+         id="g3321" />
+      <g
+         id="g3323" />
+      <g
+         id="g3325" />
+      <g
+         id="g3327" />
+      <g
+         id="g3329" />
+      <g
+         id="g3331" />
+      <g
+         id="g3333" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,81.182738,828.36219)"
+       style="fill:#ff0000"
+       points="32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 "
+       id="polygon3516" />
+    <g
+       id="g3518"
+       transform="matrix(0,1,-1,0,49.182738,828.36219)">
+      <rect
+         id="rect3520"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3522" />
+      <g
+         id="g3524" />
+      <g
+         id="g3526" />
+      <g
+         id="g3528" />
+      <g
+         id="g3530" />
+      <g
+         id="g3532" />
+      <g
+         id="g3534" />
+      <g
+         id="g3536" />
+      <g
+         id="g3538" />
+      <g
+         id="g3540" />
+      <g
+         id="g3542" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,81.182738,892.36219)"
+       style="fill:#ff0000"
+       points="32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 "
+       id="polygon3572" />
+    <g
+       id="g3574"
+       transform="matrix(0,1,-1,0,49.182738,892.36219)">
+      <rect
+         id="rect3576"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3578" />
+      <g
+         id="g3580" />
+      <g
+         id="g3582" />
+      <g
+         id="g3584" />
+      <g
+         id="g3586" />
+      <g
+         id="g3588" />
+      <g
+         id="g3590" />
+      <g
+         id="g3592" />
+      <g
+         id="g3594" />
+      <g
+         id="g3596" />
+      <g
+         id="g3598" />
+    </g>
+    <polygon
+       id="polygon3600"
+       points="32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,81.182738,956.36219)" />
+    <g
+       transform="matrix(0,1,-1,0,49.182738,956.36219)"
+       id="g3602">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect3604" />
+      <g
+         id="g3606" />
+      <g
+         id="g3608" />
+      <g
+         id="g3610" />
+      <g
+         id="g3612" />
+      <g
+         id="g3614" />
+      <g
+         id="g3616" />
+      <g
+         id="g3618" />
+      <g
+         id="g3620" />
+      <g
+         id="g3622" />
+      <g
+         id="g3624" />
+      <g
+         id="g3626" />
+    </g>
+    <polygon
+       id="polygon3628"
+       points="20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,81.182738,508.36219)" />
+    <g
+       transform="matrix(0,1,-1,0,49.182738,508.36219)"
+       id="g3630">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect3632" />
+      <g
+         id="g3634" />
+      <g
+         id="g3636" />
+      <g
+         id="g3638" />
+      <g
+         id="g3640" />
+      <g
+         id="g3642" />
+      <g
+         id="g3644" />
+      <g
+         id="g3646" />
+      <g
+         id="g3648" />
+      <g
+         id="g3650" />
+      <g
+         id="g3652" />
+      <g
+         id="g3654" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,81.182738,732.36219)"
+       style="fill:#ff0000"
+       points="21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 "
+       id="polygon3656" />
+    <g
+       id="g3658"
+       transform="matrix(0,1,-1,0,49.182738,732.36219)">
+      <rect
+         id="rect3660"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3662" />
+      <g
+         id="g3664" />
+      <g
+         id="g3666" />
+      <g
+         id="g3668" />
+      <g
+         id="g3670" />
+      <g
+         id="g3672" />
+      <g
+         id="g3674" />
+      <g
+         id="g3676" />
+      <g
+         id="g3678" />
+      <g
+         id="g3680" />
+      <g
+         id="g3682" />
+    </g>
+    <polygon
+       id="polygon3684"
+       points="21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,81.182738,604.36219)" />
+    <g
+       transform="matrix(0,1,-1,0,49.182738,604.36219)"
+       id="g3686">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect3688" />
+      <g
+         id="g3690" />
+      <g
+         id="g3692" />
+      <g
+         id="g3694" />
+      <g
+         id="g3696" />
+      <g
+         id="g3698" />
+      <g
+         id="g3700" />
+      <g
+         id="g3702" />
+      <g
+         id="g3704" />
+      <g
+         id="g3706" />
+      <g
+         id="g3708" />
+      <g
+         id="g3710" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,81.182738,668.36219)"
+       style="fill:#ff0000"
+       points="21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 "
+       id="polygon3712" />
+    <g
+       id="g3714"
+       transform="matrix(0,1,-1,0,49.182738,668.3622)">
+      <rect
+         id="rect3716"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3718" />
+      <g
+         id="g3720" />
+      <g
+         id="g3722" />
+      <g
+         id="g3724" />
+      <g
+         id="g3726" />
+      <g
+         id="g3728" />
+      <g
+         id="g3730" />
+      <g
+         id="g3732" />
+      <g
+         id="g3734" />
+      <g
+         id="g3736" />
+      <g
+         id="g3738" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,81.182738,380.36219)"
+       style="fill:#ff0000"
+       points="22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 "
+       id="polygon3771" />
+    <g
+       id="g3773"
+       transform="matrix(0,1,-1,0,49.182738,380.36219)">
+      <rect
+         id="rect3775"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3777" />
+      <g
+         id="g3779" />
+      <g
+         id="g3781" />
+      <g
+         id="g3783" />
+      <g
+         id="g3785" />
+      <g
+         id="g3787" />
+      <g
+         id="g3789" />
+      <g
+         id="g3791" />
+      <g
+         id="g3793" />
+      <g
+         id="g3795" />
+      <g
+         id="g3797" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,81.182738,444.36219)"
+       style="fill:#ff0000"
+       points="22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 "
+       id="polygon3799" />
+    <g
+       id="g3801"
+       transform="matrix(0,1,-1,0,49.182738,444.36219)">
+      <rect
+         id="rect3803"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3805" />
+      <g
+         id="g3807" />
+      <g
+         id="g3809" />
+      <g
+         id="g3811" />
+      <g
+         id="g3813" />
+      <g
+         id="g3815" />
+      <g
+         id="g3817" />
+      <g
+         id="g3819" />
+      <g
+         id="g3821" />
+      <g
+         id="g3823" />
+      <g
+         id="g3825" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,113.18274,444.36219)"
+       style="fill:#ff0000"
+       points="9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 "
+       id="polygon3827" />
+    <g
+       id="g3831"
+       transform="translate(113.18274,380.36219)">
+      <rect
+         id="rect3833"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g3835" />
+      <g
+         id="g3837" />
+      <g
+         id="g3839" />
+      <g
+         id="g3841" />
+      <g
+         id="g3843" />
+      <g
+         id="g3845" />
+      <g
+         id="g3847" />
+      <g
+         id="g3849" />
+      <g
+         id="g3851" />
+      <g
+         id="g3853" />
+      <g
+         id="g3855" />
+    </g>
+    <g
+       transform="translate(113.18274,412.36219)"
+       id="g3857">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect3859" />
+      <g
+         id="g3861" />
+      <g
+         id="g3863" />
+      <g
+         id="g3865" />
+      <g
+         id="g3867" />
+      <g
+         id="g3869" />
+      <g
+         id="g3871" />
+      <g
+         id="g3873" />
+      <g
+         id="g3875" />
+      <g
+         id="g3877" />
+      <g
+         id="g3879" />
+      <g
+         id="g3881" />
+    </g>
+    <polygon
+       id="polygon3883"
+       points="32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,241.18274,380.36219)" />
+    <g
+       transform="translate(369.18274,668.36219)"
+       id="g4426">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect4428" />
+      <g
+         id="g4430" />
+      <g
+         id="g4432" />
+      <g
+         id="g4434" />
+      <g
+         id="g4436" />
+      <g
+         id="g4438" />
+      <g
+         id="g4440" />
+      <g
+         id="g4442" />
+      <g
+         id="g4444" />
+      <g
+         id="g4446" />
+      <g
+         id="g4448" />
+      <g
+         id="g4450" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,337.18274,380.36219)"
+       style="fill:#ff0000"
+       points="32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 "
+       id="polygon4608" />
+    <g
+       transform="translate(369.18274,508.36219)"
+       id="g4610">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect4612" />
+      <g
+         id="g4614" />
+      <g
+         id="g4616" />
+      <g
+         id="g4618" />
+      <g
+         id="g4620" />
+      <g
+         id="g4622" />
+      <g
+         id="g4624" />
+      <g
+         id="g4626" />
+      <g
+         id="g4628" />
+      <g
+         id="g4630" />
+      <g
+         id="g4632" />
+      <g
+         id="g4634" />
+    </g>
+    <polygon
+       id="polygon4640"
+       points="20.458,19.221 20.458,13.398 27.982,13.398 16.195,5 4.408,13.398 11.542,13.398 11.542,19.221 0,19.221 0,32 32,32 32,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,433.18274,700.36219)" />
+    <g
+       id="g4642"
+       transform="translate(369.18274,540.36219)">
+      <rect
+         id="rect4644"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g4646" />
+      <g
+         id="g4648" />
+      <g
+         id="g4650" />
+      <g
+         id="g4652" />
+      <g
+         id="g4654" />
+      <g
+         id="g4656" />
+      <g
+         id="g4658" />
+      <g
+         id="g4660" />
+      <g
+         id="g4662" />
+      <g
+         id="g4664" />
+      <g
+         id="g4666" />
+    </g>
+    <polygon
+       id="polygon4858"
+       points="0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,337.18274,668.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,337.18274,892.36219)"
+       style="fill:#ff0000"
+       points="32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 "
+       id="polygon4918" />
+    <g
+       id="g4946"
+       transform="translate(369.18274,572.36219)">
+      <rect
+         id="rect4948"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g4950" />
+      <g
+         id="g4952" />
+      <g
+         id="g4954" />
+      <g
+         id="g4956" />
+      <g
+         id="g4958" />
+      <g
+         id="g4960" />
+      <g
+         id="g4962" />
+      <g
+         id="g4964" />
+      <g
+         id="g4966" />
+      <g
+         id="g4968" />
+      <g
+         id="g4970" />
+    </g>
+    <g
+       transform="translate(369.18274,604.36219)"
+       id="g4972">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect4974" />
+      <g
+         id="g4976" />
+      <g
+         id="g4978" />
+      <g
+         id="g4980" />
+      <g
+         id="g4982" />
+      <g
+         id="g4984" />
+      <g
+         id="g4986" />
+      <g
+         id="g4988" />
+      <g
+         id="g4990" />
+      <g
+         id="g4992" />
+      <g
+         id="g4994" />
+      <g
+         id="g4996" />
+    </g>
+    <g
+       id="g4998"
+       transform="translate(369.18274,636.36219)">
+      <rect
+         id="rect5000"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g5002" />
+      <g
+         id="g5004" />
+      <g
+         id="g5006" />
+      <g
+         id="g5008" />
+      <g
+         id="g5010" />
+      <g
+         id="g5012" />
+      <g
+         id="g5014" />
+      <g
+         id="g5016" />
+      <g
+         id="g5018" />
+      <g
+         id="g5020" />
+      <g
+         id="g5022" />
+    </g>
+    <g
+       id="g5296"
+       transform="translate(465.18274,700.36219)">
+      <rect
+         id="rect5298"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g5300" />
+      <g
+         id="g5302" />
+      <g
+         id="g5304" />
+      <g
+         id="g5306" />
+      <g
+         id="g5308" />
+      <g
+         id="g5310" />
+      <g
+         id="g5312" />
+      <g
+         id="g5314" />
+      <g
+         id="g5316" />
+      <g
+         id="g5318" />
+      <g
+         id="g5320" />
+    </g>
+    <polygon
+       id="polygon5322"
+       points="11.542,19.221 11.542,13.398 4.408,13.398 16.195,5 27.982,13.398 20.458,13.398 20.458,19.221 32,19.221 32,0 0,0 0,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,465.18274,700.36219)" />
+    <polygon
+       id="polygon5417"
+       points="20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,96,220.36218)" />
+    <g
+       transform="matrix(0,1,-1,0,64,220.36218)"
+       id="g5419">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect5421" />
+      <g
+         id="g5423" />
+      <g
+         id="g5425" />
+      <g
+         id="g5427" />
+      <g
+         id="g5429" />
+      <g
+         id="g5431" />
+      <g
+         id="g5433" />
+      <g
+         id="g5435" />
+      <g
+         id="g5437" />
+      <g
+         id="g5439" />
+      <g
+         id="g5441" />
+      <g
+         id="g5443" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="15.854613"
+       y="188.36218"
+       id="text5445"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="15.854613"
+         y="188.36218"
+         id="tspan5449"
+         style="font-size:20px">inputNum</tspan></text>
+    <polygon
+       id="polygon5629"
+       points="11.542,19.221 0,19.221 0,32 32,32 32,19.221 20.458,19.221 20.458,13.398 27.982,13.398 16.195,5 4.408,13.398 11.542,13.398 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,416,188.36218)" />
+    <polygon
+       id="polygon5631"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,352,220.36218)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,352,156.36218)"
+       style="fill:#ff0000"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       id="polygon5633" />
+    <g
+       transform="translate(352,156.36218)"
+       id="g5635">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect5637" />
+      <g
+         id="g5639" />
+      <g
+         id="g5641" />
+      <g
+         id="g5643" />
+      <g
+         id="g5645" />
+      <g
+         id="g5647" />
+      <g
+         id="g5649" />
+      <g
+         id="g5651" />
+      <g
+         id="g5653" />
+      <g
+         id="g5655" />
+      <g
+         id="g5657" />
+      <g
+         id="g5659" />
+    </g>
+    <g
+       id="g5661"
+       transform="translate(352,188.36218)">
+      <rect
+         id="rect5663"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g5665" />
+      <g
+         id="g5667" />
+      <g
+         id="g5669" />
+      <g
+         id="g5671" />
+      <g
+         id="g5673" />
+      <g
+         id="g5675" />
+      <g
+         id="g5677" />
+      <g
+         id="g5679" />
+      <g
+         id="g5681" />
+      <g
+         id="g5683" />
+      <g
+         id="g5685" />
+    </g>
+    <g
+       transform="translate(352,220.36218)"
+       id="g5687">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect5689" />
+      <g
+         id="g5691" />
+      <g
+         id="g5693" />
+      <g
+         id="g5695" />
+      <g
+         id="g5697" />
+      <g
+         id="g5699" />
+      <g
+         id="g5701" />
+      <g
+         id="g5703" />
+      <g
+         id="g5705" />
+      <g
+         id="g5707" />
+      <g
+         id="g5709" />
+      <g
+         id="g5711" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="327.54907"
+       y="138.36218"
+       id="text5793"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5795"
+         x="327.54907"
+         y="138.36218"
+         style="font-size:20px">isEqual</tspan></text>
+    <g
+       transform="translate(480,284.36218)"
+       id="g5989">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect5991" />
+      <g
+         id="g5993" />
+      <g
+         id="g5995" />
+      <g
+         id="g5997" />
+      <g
+         id="g5999" />
+      <g
+         id="g6001" />
+      <g
+         id="g6003" />
+      <g
+         id="g6005" />
+      <g
+         id="g6007" />
+      <g
+         id="g6009" />
+      <g
+         id="g6011" />
+      <g
+         id="g6013" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,480,284.36218)"
+       style="fill:#ff0000"
+       points="32,19.221 32,0 0,0 0,19.221 11.542,19.221 11.542,13.398 4.408,13.398 16.195,5 27.982,13.398 20.458,13.398 20.458,19.221 "
+       id="polygon6015" />
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,480,188.36218)"
+       style="fill:#ff0000"
+       points="22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 "
+       id="polygon6017" />
+    <g
+       id="g6019"
+       transform="translate(480,188.36218)">
+      <rect
+         id="rect6021"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g6023" />
+      <g
+         id="g6025" />
+      <g
+         id="g6027" />
+      <g
+         id="g6029" />
+      <g
+         id="g6031" />
+      <g
+         id="g6033" />
+      <g
+         id="g6035" />
+      <g
+         id="g6037" />
+      <g
+         id="g6039" />
+      <g
+         id="g6041" />
+      <g
+         id="g6043" />
+    </g>
+    <g
+       transform="translate(113.18274,508.36219)"
+       id="g6045">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6047" />
+      <g
+         id="g6049" />
+      <g
+         id="g6051" />
+      <g
+         id="g6053" />
+      <g
+         id="g6055" />
+      <g
+         id="g6057" />
+      <g
+         id="g6059" />
+      <g
+         id="g6061" />
+      <g
+         id="g6063" />
+      <g
+         id="g6065" />
+      <g
+         id="g6067" />
+      <g
+         id="g6069" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,113.18274,508.36219)"
+       style="fill:#ff0000"
+       points="9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 "
+       id="polygon6071" />
+    <g
+       transform="translate(113.18274,476.36219)"
+       id="g6073">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6075" />
+      <g
+         id="g6077" />
+      <g
+         id="g6079" />
+      <g
+         id="g6081" />
+      <g
+         id="g6083" />
+      <g
+         id="g6085" />
+      <g
+         id="g6087" />
+      <g
+         id="g6089" />
+      <g
+         id="g6091" />
+      <g
+         id="g6093" />
+      <g
+         id="g6095" />
+      <g
+         id="g6097" />
+    </g>
+    <g
+       id="g6454"
+       transform="translate(369.18274,860.36219)">
+      <rect
+         id="rect6456"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g6458" />
+      <g
+         id="g6460" />
+      <g
+         id="g6462" />
+      <g
+         id="g6464" />
+      <g
+         id="g6466" />
+      <g
+         id="g6468" />
+      <g
+         id="g6470" />
+      <g
+         id="g6472" />
+      <g
+         id="g6474" />
+      <g
+         id="g6476" />
+      <g
+         id="g6478" />
+    </g>
+    <g
+       id="g6480"
+       transform="translate(369.18274,700.3622)">
+      <rect
+         id="rect6482"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g6484" />
+      <g
+         id="g6486" />
+      <g
+         id="g6488" />
+      <g
+         id="g6490" />
+      <g
+         id="g6492" />
+      <g
+         id="g6494" />
+      <g
+         id="g6496" />
+      <g
+         id="g6498" />
+      <g
+         id="g6500" />
+      <g
+         id="g6502" />
+      <g
+         id="g6504" />
+    </g>
+    <g
+       transform="translate(369.18274,732.36219)"
+       id="g6506">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6508" />
+      <g
+         id="g6510" />
+      <g
+         id="g6512" />
+      <g
+         id="g6514" />
+      <g
+         id="g6516" />
+      <g
+         id="g6518" />
+      <g
+         id="g6520" />
+      <g
+         id="g6522" />
+      <g
+         id="g6524" />
+      <g
+         id="g6526" />
+      <g
+         id="g6528" />
+      <g
+         id="g6530" />
+    </g>
+    <g
+       transform="translate(369.18274,764.36219)"
+       id="g6532">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6534" />
+      <g
+         id="g6536" />
+      <g
+         id="g6538" />
+      <g
+         id="g6540" />
+      <g
+         id="g6542" />
+      <g
+         id="g6544" />
+      <g
+         id="g6546" />
+      <g
+         id="g6548" />
+      <g
+         id="g6550" />
+      <g
+         id="g6552" />
+      <g
+         id="g6554" />
+      <g
+         id="g6556" />
+    </g>
+    <g
+       id="g6558"
+       transform="translate(369.18274,796.36219)">
+      <rect
+         id="rect6560"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g6562" />
+      <g
+         id="g6564" />
+      <g
+         id="g6566" />
+      <g
+         id="g6568" />
+      <g
+         id="g6570" />
+      <g
+         id="g6572" />
+      <g
+         id="g6574" />
+      <g
+         id="g6576" />
+      <g
+         id="g6578" />
+      <g
+         id="g6580" />
+      <g
+         id="g6582" />
+    </g>
+    <g
+       transform="translate(369.18274,828.36219)"
+       id="g6584">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6586" />
+      <g
+         id="g6588" />
+      <g
+         id="g6590" />
+      <g
+         id="g6592" />
+      <g
+         id="g6594" />
+      <g
+         id="g6596" />
+      <g
+         id="g6598" />
+      <g
+         id="g6600" />
+      <g
+         id="g6602" />
+      <g
+         id="g6604" />
+      <g
+         id="g6606" />
+      <g
+         id="g6608" />
+    </g>
+    <g
+       id="g6610"
+       transform="translate(369.18274,892.36219)">
+      <rect
+         id="rect6612"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g6614" />
+      <g
+         id="g6616" />
+      <g
+         id="g6618" />
+      <g
+         id="g6620" />
+      <g
+         id="g6622" />
+      <g
+         id="g6624" />
+      <g
+         id="g6626" />
+      <g
+         id="g6628" />
+      <g
+         id="g6630" />
+      <g
+         id="g6632" />
+      <g
+         id="g6634" />
+    </g>
+    <polygon
+       id="polygon6636"
+       points="10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,128,188.36218)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       transform="translate(128,220.36218)"
+       id="g6638">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6640" />
+      <g
+         id="g6642" />
+      <g
+         id="g6644" />
+      <g
+         id="g6646" />
+      <g
+         id="g6648" />
+      <g
+         id="g6650" />
+      <g
+         id="g6652" />
+      <g
+         id="g6654" />
+      <g
+         id="g6656" />
+      <g
+         id="g6658" />
+      <g
+         id="g6660" />
+      <g
+         id="g6662" />
+    </g>
+    <g
+       id="g6666"
+       transform="translate(128,156.36218)">
+      <rect
+         id="rect6668"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g6670" />
+      <g
+         id="g6672" />
+      <g
+         id="g6674" />
+      <g
+         id="g6676" />
+      <g
+         id="g6678" />
+      <g
+         id="g6680" />
+      <g
+         id="g6682" />
+      <g
+         id="g6684" />
+      <g
+         id="g6686" />
+      <g
+         id="g6688" />
+      <g
+         id="g6690" />
+    </g>
+    <g
+       transform="translate(128,188.36218)"
+       id="g6692">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect6694" />
+      <g
+         id="g6696" />
+      <g
+         id="g6698" />
+      <g
+         id="g6700" />
+      <g
+         id="g6702" />
+      <g
+         id="g6704" />
+      <g
+         id="g6706" />
+      <g
+         id="g6708" />
+      <g
+         id="g6710" />
+      <g
+         id="g6712" />
+      <g
+         id="g6714" />
+      <g
+         id="g6716" />
+    </g>
+    <polygon
+       id="polygon6718"
+       points="10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,192,156.36218)" />
+    <polygon
+       transform="matrix(0,1,-1,0,192,220.36218)"
+       style="fill:#ff0000"
+       points="0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 "
+       id="polygon6720" />
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,273.18274,444.36219)"
+       style="fill:#ff0000"
+       points="9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 "
+       id="polygon7002" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7704"
+       y="170.01706"
+       x="448"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px"
+         id="tspan7706"
+         y="170.01706"
+         x="448"
+         sodipodi:role="line">outputNum</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="448"
+       y="266.32892"
+       id="text7708"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="448"
+         y="266.32892"
+         id="tspan7710"
+         style="font-size:20px">outputIsSquare</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7712"
+       y="139.44186"
+       x="128"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px"
+         id="tspan7714"
+         y="139.44186"
+         x="128"
+         sodipodi:role="line">fork</tspan></text>
+    <polygon
+       transform="matrix(-1,0,0,-1,145.18274,572.36219)"
+       style="fill:#ff0000"
+       points="22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 "
+       id="polygon55311"
+       inkscape:transform-center-x="5.624998"
+       inkscape:transform-center-y="6.5250038" />
+    <polygon
+       inkscape:transform-center-y="6.5250038"
+       inkscape:transform-center-x="5.624998"
+       id="polygon55313"
+       points="20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,177.18274,572.36219)" />
+    <polygon
+       transform="matrix(-1,0,0,-1,209.18274,572.36219)"
+       style="fill:#ff0000"
+       points="16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 "
+       id="polygon55315"
+       inkscape:transform-center-x="5.624998"
+       inkscape:transform-center-y="6.5250038" />
+    <g
+       id="g55317"
+       transform="translate(177.18274,444.36219)">
+      <rect
+         id="rect55319"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55321" />
+      <g
+         id="g55323" />
+      <g
+         id="g55325" />
+      <g
+         id="g55327" />
+      <g
+         id="g55329" />
+      <g
+         id="g55331" />
+      <g
+         id="g55333" />
+      <g
+         id="g55335" />
+      <g
+         id="g55337" />
+      <g
+         id="g55339" />
+      <g
+         id="g55341" />
+    </g>
+    <g
+       transform="translate(177.18274,380.36219)"
+       id="g55343">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55345" />
+      <g
+         id="g55347" />
+      <g
+         id="g55349" />
+      <g
+         id="g55351" />
+      <g
+         id="g55353" />
+      <g
+         id="g55355" />
+      <g
+         id="g55357" />
+      <g
+         id="g55359" />
+      <g
+         id="g55361" />
+      <g
+         id="g55363" />
+      <g
+         id="g55365" />
+      <g
+         id="g55367" />
+    </g>
+    <g
+       id="g55369"
+       transform="translate(177.18274,412.36219)">
+      <rect
+         id="rect55371"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55373" />
+      <g
+         id="g55375" />
+      <g
+         id="g55377" />
+      <g
+         id="g55379" />
+      <g
+         id="g55381" />
+      <g
+         id="g55383" />
+      <g
+         id="g55385" />
+      <g
+         id="g55387" />
+      <g
+         id="g55389" />
+      <g
+         id="g55391" />
+      <g
+         id="g55393" />
+    </g>
+    <g
+       id="g55395"
+       transform="translate(177.18274,508.36219)">
+      <rect
+         id="rect55397"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55399" />
+      <g
+         id="g55401" />
+      <g
+         id="g55403" />
+      <g
+         id="g55405" />
+      <g
+         id="g55407" />
+      <g
+         id="g55409" />
+      <g
+         id="g55411" />
+      <g
+         id="g55413" />
+      <g
+         id="g55415" />
+      <g
+         id="g55417" />
+      <g
+         id="g55419" />
+    </g>
+    <g
+       id="g55421"
+       transform="translate(177.18274,476.36219)">
+      <rect
+         id="rect55423"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55425" />
+      <g
+         id="g55427" />
+      <g
+         id="g55429" />
+      <g
+         id="g55431" />
+      <g
+         id="g55433" />
+      <g
+         id="g55435" />
+      <g
+         id="g55437" />
+      <g
+         id="g55439" />
+      <g
+         id="g55441" />
+      <g
+         id="g55443" />
+      <g
+         id="g55445" />
+    </g>
+    <g
+       transform="translate(145.18274,444.36219)"
+       id="g55447">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55449" />
+      <g
+         id="g55451" />
+      <g
+         id="g55453" />
+      <g
+         id="g55455" />
+      <g
+         id="g55457" />
+      <g
+         id="g55459" />
+      <g
+         id="g55461" />
+      <g
+         id="g55463" />
+      <g
+         id="g55465" />
+      <g
+         id="g55467" />
+      <g
+         id="g55469" />
+      <g
+         id="g55471" />
+    </g>
+    <g
+       id="g55473"
+       transform="translate(145.18274,380.36219)">
+      <rect
+         id="rect55475"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55477" />
+      <g
+         id="g55479" />
+      <g
+         id="g55481" />
+      <g
+         id="g55483" />
+      <g
+         id="g55485" />
+      <g
+         id="g55487" />
+      <g
+         id="g55489" />
+      <g
+         id="g55491" />
+      <g
+         id="g55493" />
+      <g
+         id="g55495" />
+      <g
+         id="g55497" />
+    </g>
+    <g
+       transform="translate(145.18274,412.36219)"
+       id="g55499">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55501" />
+      <g
+         id="g55503" />
+      <g
+         id="g55505" />
+      <g
+         id="g55507" />
+      <g
+         id="g55509" />
+      <g
+         id="g55511" />
+      <g
+         id="g55513" />
+      <g
+         id="g55515" />
+      <g
+         id="g55517" />
+      <g
+         id="g55519" />
+      <g
+         id="g55521" />
+      <g
+         id="g55523" />
+    </g>
+    <g
+       transform="translate(145.18274,508.36219)"
+       id="g55525">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55527" />
+      <g
+         id="g55529" />
+      <g
+         id="g55531" />
+      <g
+         id="g55533" />
+      <g
+         id="g55535" />
+      <g
+         id="g55537" />
+      <g
+         id="g55539" />
+      <g
+         id="g55541" />
+      <g
+         id="g55543" />
+      <g
+         id="g55545" />
+      <g
+         id="g55547" />
+      <g
+         id="g55549" />
+    </g>
+    <g
+       transform="translate(145.18274,476.36219)"
+       id="g55551">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55553" />
+      <g
+         id="g55555" />
+      <g
+         id="g55557" />
+      <g
+         id="g55559" />
+      <g
+         id="g55561" />
+      <g
+         id="g55563" />
+      <g
+         id="g55565" />
+      <g
+         id="g55567" />
+      <g
+         id="g55569" />
+      <g
+         id="g55571" />
+      <g
+         id="g55573" />
+      <g
+         id="g55575" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,114.18274,604.36219)"
+       style="fill:#ff0000"
+       points="10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 "
+       id="polygon55577" />
+    <g
+       id="g55579"
+       transform="translate(113.18274,668.36219)">
+      <rect
+         id="rect55581"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55583" />
+      <g
+         id="g55585" />
+      <g
+         id="g55587" />
+      <g
+         id="g55589" />
+      <g
+         id="g55591" />
+      <g
+         id="g55593" />
+      <g
+         id="g55595" />
+      <g
+         id="g55597" />
+      <g
+         id="g55599" />
+      <g
+         id="g55601" />
+      <g
+         id="g55603" />
+    </g>
+    <polygon
+       id="polygon55605"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,113.18274,668.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       transform="translate(113.18274,604.36219)"
+       id="g55607">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55609" />
+      <g
+         id="g55611" />
+      <g
+         id="g55613" />
+      <g
+         id="g55615" />
+      <g
+         id="g55617" />
+      <g
+         id="g55619" />
+      <g
+         id="g55621" />
+      <g
+         id="g55623" />
+      <g
+         id="g55625" />
+      <g
+         id="g55627" />
+      <g
+         id="g55629" />
+      <g
+         id="g55631" />
+    </g>
+    <g
+       id="g55633"
+       transform="translate(113.18274,636.36219)">
+      <rect
+         id="rect55635"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55637" />
+      <g
+         id="g55639" />
+      <g
+         id="g55641" />
+      <g
+         id="g55643" />
+      <g
+         id="g55645" />
+      <g
+         id="g55647" />
+      <g
+         id="g55649" />
+      <g
+         id="g55651" />
+      <g
+         id="g55653" />
+      <g
+         id="g55655" />
+      <g
+         id="g55657" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,241.18274,668.36219)"
+       style="fill:#ff0000"
+       points="32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 "
+       id="polygon55659" />
+    <g
+       id="g55661"
+       transform="translate(113.18274,732.36219)">
+      <rect
+         id="rect55663"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55665" />
+      <g
+         id="g55667" />
+      <g
+         id="g55669" />
+      <g
+         id="g55671" />
+      <g
+         id="g55673" />
+      <g
+         id="g55675" />
+      <g
+         id="g55677" />
+      <g
+         id="g55679" />
+      <g
+         id="g55681" />
+      <g
+         id="g55683" />
+      <g
+         id="g55685" />
+    </g>
+    <polygon
+       id="polygon55687"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,113.18274,732.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       id="g55689"
+       transform="translate(113.18274,700.36219)">
+      <rect
+         id="rect55691"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55693" />
+      <g
+         id="g55695" />
+      <g
+         id="g55697" />
+      <g
+         id="g55699" />
+      <g
+         id="g55701" />
+      <g
+         id="g55703" />
+      <g
+         id="g55705" />
+      <g
+         id="g55707" />
+      <g
+         id="g55709" />
+      <g
+         id="g55711" />
+      <g
+         id="g55713" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="6.5250038"
+       inkscape:transform-center-x="5.624998"
+       id="polygon55715"
+       points="20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,145.18274,796.36219)" />
+    <polygon
+       transform="matrix(-1,0,0,-1,177.18274,796.36219)"
+       style="fill:#ff0000"
+       points="22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 "
+       id="polygon55717"
+       inkscape:transform-center-x="5.624998"
+       inkscape:transform-center-y="6.5250038" />
+    <polygon
+       inkscape:transform-center-y="6.5250038"
+       inkscape:transform-center-x="5.624998"
+       id="polygon55719"
+       points="29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,209.18274,796.36219)" />
+    <g
+       transform="translate(177.18274,668.36219)"
+       id="g55721">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55723" />
+      <g
+         id="g55725" />
+      <g
+         id="g55727" />
+      <g
+         id="g55729" />
+      <g
+         id="g55731" />
+      <g
+         id="g55733" />
+      <g
+         id="g55735" />
+      <g
+         id="g55737" />
+      <g
+         id="g55739" />
+      <g
+         id="g55741" />
+      <g
+         id="g55743" />
+      <g
+         id="g55745" />
+    </g>
+    <g
+       id="g55747"
+       transform="translate(177.18274,604.36219)">
+      <rect
+         id="rect55749"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55751" />
+      <g
+         id="g55753" />
+      <g
+         id="g55755" />
+      <g
+         id="g55757" />
+      <g
+         id="g55759" />
+      <g
+         id="g55761" />
+      <g
+         id="g55763" />
+      <g
+         id="g55765" />
+      <g
+         id="g55767" />
+      <g
+         id="g55769" />
+      <g
+         id="g55771" />
+    </g>
+    <g
+       transform="translate(177.18274,636.36219)"
+       id="g55773">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55775" />
+      <g
+         id="g55777" />
+      <g
+         id="g55779" />
+      <g
+         id="g55781" />
+      <g
+         id="g55783" />
+      <g
+         id="g55785" />
+      <g
+         id="g55787" />
+      <g
+         id="g55789" />
+      <g
+         id="g55791" />
+      <g
+         id="g55793" />
+      <g
+         id="g55795" />
+      <g
+         id="g55797" />
+    </g>
+    <g
+       transform="translate(177.18274,732.36219)"
+       id="g55799">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55801" />
+      <g
+         id="g55803" />
+      <g
+         id="g55805" />
+      <g
+         id="g55807" />
+      <g
+         id="g55809" />
+      <g
+         id="g55811" />
+      <g
+         id="g55813" />
+      <g
+         id="g55815" />
+      <g
+         id="g55817" />
+      <g
+         id="g55819" />
+      <g
+         id="g55821" />
+      <g
+         id="g55823" />
+    </g>
+    <g
+       transform="translate(177.18274,700.36219)"
+       id="g55825">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55827" />
+      <g
+         id="g55829" />
+      <g
+         id="g55831" />
+      <g
+         id="g55833" />
+      <g
+         id="g55835" />
+      <g
+         id="g55837" />
+      <g
+         id="g55839" />
+      <g
+         id="g55841" />
+      <g
+         id="g55843" />
+      <g
+         id="g55845" />
+      <g
+         id="g55847" />
+      <g
+         id="g55849" />
+    </g>
+    <g
+       id="g55851"
+       transform="translate(145.18274,668.36219)">
+      <rect
+         id="rect55853"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55855" />
+      <g
+         id="g55857" />
+      <g
+         id="g55859" />
+      <g
+         id="g55861" />
+      <g
+         id="g55863" />
+      <g
+         id="g55865" />
+      <g
+         id="g55867" />
+      <g
+         id="g55869" />
+      <g
+         id="g55871" />
+      <g
+         id="g55873" />
+      <g
+         id="g55875" />
+    </g>
+    <g
+       transform="translate(145.18274,604.36219)"
+       id="g55877">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55879" />
+      <g
+         id="g55881" />
+      <g
+         id="g55883" />
+      <g
+         id="g55885" />
+      <g
+         id="g55887" />
+      <g
+         id="g55889" />
+      <g
+         id="g55891" />
+      <g
+         id="g55893" />
+      <g
+         id="g55895" />
+      <g
+         id="g55897" />
+      <g
+         id="g55899" />
+      <g
+         id="g55901" />
+    </g>
+    <g
+       id="g55903"
+       transform="translate(145.18274,636.36219)">
+      <rect
+         id="rect55905"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55907" />
+      <g
+         id="g55909" />
+      <g
+         id="g55911" />
+      <g
+         id="g55913" />
+      <g
+         id="g55915" />
+      <g
+         id="g55917" />
+      <g
+         id="g55919" />
+      <g
+         id="g55921" />
+      <g
+         id="g55923" />
+      <g
+         id="g55925" />
+      <g
+         id="g55927" />
+    </g>
+    <g
+       id="g55929"
+       transform="translate(145.18274,732.36219)">
+      <rect
+         id="rect55931"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55933" />
+      <g
+         id="g55935" />
+      <g
+         id="g55937" />
+      <g
+         id="g55939" />
+      <g
+         id="g55941" />
+      <g
+         id="g55943" />
+      <g
+         id="g55945" />
+      <g
+         id="g55947" />
+      <g
+         id="g55949" />
+      <g
+         id="g55951" />
+      <g
+         id="g55953" />
+    </g>
+    <g
+       id="g55955"
+       transform="translate(145.18274,700.36219)">
+      <rect
+         id="rect55957"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g55959" />
+      <g
+         id="g55961" />
+      <g
+         id="g55963" />
+      <g
+         id="g55965" />
+      <g
+         id="g55967" />
+      <g
+         id="g55969" />
+      <g
+         id="g55971" />
+      <g
+         id="g55973" />
+      <g
+         id="g55975" />
+      <g
+         id="g55977" />
+      <g
+         id="g55979" />
+    </g>
+    <polygon
+       id="polygon55981"
+       points="9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,145.18274,604.36219)"
+       inkscape:transform-center-x="-46.14366"
+       inkscape:transform-center-y="127.10513" />
+    <polygon
+       inkscape:transform-center-y="127.10513"
+       inkscape:transform-center-x="-46.14366"
+       transform="matrix(-1,0,0,-1,177.18274,604.36219)"
+       style="fill:#ff0000"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       id="polygon55983" />
+    <polygon
+       id="polygon55985"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,209.18274,604.36219)"
+       inkscape:transform-center-x="-46.14366"
+       inkscape:transform-center-y="127.10513" />
+    <polygon
+       id="polygon55987"
+       points="10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,114.18274,828.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       transform="translate(113.18274,892.36219)"
+       id="g55989">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect55991" />
+      <g
+         id="g55993" />
+      <g
+         id="g55995" />
+      <g
+         id="g55997" />
+      <g
+         id="g55999" />
+      <g
+         id="g56001" />
+      <g
+         id="g56003" />
+      <g
+         id="g56005" />
+      <g
+         id="g56007" />
+      <g
+         id="g56009" />
+      <g
+         id="g56011" />
+      <g
+         id="g56013" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,113.18274,892.36219)"
+       style="fill:#ff0000"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       id="polygon56015" />
+    <g
+       id="g56017"
+       transform="translate(113.18274,828.36219)">
+      <rect
+         id="rect56019"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56021" />
+      <g
+         id="g56023" />
+      <g
+         id="g56025" />
+      <g
+         id="g56027" />
+      <g
+         id="g56029" />
+      <g
+         id="g56031" />
+      <g
+         id="g56033" />
+      <g
+         id="g56035" />
+      <g
+         id="g56037" />
+      <g
+         id="g56039" />
+      <g
+         id="g56041" />
+    </g>
+    <g
+       transform="translate(113.18274,860.36219)"
+       id="g56043">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56045" />
+      <g
+         id="g56047" />
+      <g
+         id="g56049" />
+      <g
+         id="g56051" />
+      <g
+         id="g56053" />
+      <g
+         id="g56055" />
+      <g
+         id="g56057" />
+      <g
+         id="g56059" />
+      <g
+         id="g56061" />
+      <g
+         id="g56063" />
+      <g
+         id="g56065" />
+      <g
+         id="g56067" />
+    </g>
+    <polygon
+       id="polygon56069"
+       points="21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,241.18274,892.36219)" />
+    <g
+       transform="translate(113.18274,956.36219)"
+       id="g56071">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56073" />
+      <g
+         id="g56075" />
+      <g
+         id="g56077" />
+      <g
+         id="g56079" />
+      <g
+         id="g56081" />
+      <g
+         id="g56083" />
+      <g
+         id="g56085" />
+      <g
+         id="g56087" />
+      <g
+         id="g56089" />
+      <g
+         id="g56091" />
+      <g
+         id="g56093" />
+      <g
+         id="g56095" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,113.18274,956.36219)"
+       style="fill:#ff0000"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       id="polygon56097" />
+    <g
+       transform="translate(113.18274,924.36219)"
+       id="g56099">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56101" />
+      <g
+         id="g56103" />
+      <g
+         id="g56105" />
+      <g
+         id="g56107" />
+      <g
+         id="g56109" />
+      <g
+         id="g56111" />
+      <g
+         id="g56113" />
+      <g
+         id="g56115" />
+      <g
+         id="g56117" />
+      <g
+         id="g56119" />
+      <g
+         id="g56121" />
+      <g
+         id="g56123" />
+    </g>
+    <polygon
+       transform="matrix(-1,0,0,-1,145.18274,1020.3622)"
+       style="fill:#ff0000"
+       points="22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 "
+       id="polygon56125"
+       inkscape:transform-center-x="5.624998"
+       inkscape:transform-center-y="6.5250038" />
+    <polygon
+       inkscape:transform-center-y="6.5250038"
+       inkscape:transform-center-x="5.624998"
+       id="polygon56127"
+       points="29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,177.18274,1020.3622)" />
+    <polygon
+       transform="matrix(-1,0,0,-1,209.18274,1020.3622)"
+       style="fill:#ff0000"
+       points="16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 "
+       id="polygon56129"
+       inkscape:transform-center-x="5.624998"
+       inkscape:transform-center-y="6.5250038" />
+    <g
+       id="g56131"
+       transform="translate(177.18274,892.36219)">
+      <rect
+         id="rect56133"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56135" />
+      <g
+         id="g56137" />
+      <g
+         id="g56139" />
+      <g
+         id="g56141" />
+      <g
+         id="g56143" />
+      <g
+         id="g56145" />
+      <g
+         id="g56147" />
+      <g
+         id="g56149" />
+      <g
+         id="g56151" />
+      <g
+         id="g56153" />
+      <g
+         id="g56155" />
+    </g>
+    <g
+       transform="translate(177.18274,828.36219)"
+       id="g56157">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56159" />
+      <g
+         id="g56161" />
+      <g
+         id="g56163" />
+      <g
+         id="g56165" />
+      <g
+         id="g56167" />
+      <g
+         id="g56169" />
+      <g
+         id="g56171" />
+      <g
+         id="g56173" />
+      <g
+         id="g56175" />
+      <g
+         id="g56177" />
+      <g
+         id="g56179" />
+      <g
+         id="g56181" />
+    </g>
+    <g
+       id="g56183"
+       transform="translate(177.18274,860.36219)">
+      <rect
+         id="rect56185"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56187" />
+      <g
+         id="g56189" />
+      <g
+         id="g56191" />
+      <g
+         id="g56193" />
+      <g
+         id="g56195" />
+      <g
+         id="g56197" />
+      <g
+         id="g56199" />
+      <g
+         id="g56201" />
+      <g
+         id="g56203" />
+      <g
+         id="g56205" />
+      <g
+         id="g56207" />
+    </g>
+    <g
+       id="g56209"
+       transform="translate(177.18274,956.36219)">
+      <rect
+         id="rect56211"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56213" />
+      <g
+         id="g56215" />
+      <g
+         id="g56217" />
+      <g
+         id="g56219" />
+      <g
+         id="g56221" />
+      <g
+         id="g56223" />
+      <g
+         id="g56225" />
+      <g
+         id="g56227" />
+      <g
+         id="g56229" />
+      <g
+         id="g56231" />
+      <g
+         id="g56233" />
+    </g>
+    <g
+       id="g56235"
+       transform="translate(177.18274,924.36219)">
+      <rect
+         id="rect56237"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56239" />
+      <g
+         id="g56241" />
+      <g
+         id="g56243" />
+      <g
+         id="g56245" />
+      <g
+         id="g56247" />
+      <g
+         id="g56249" />
+      <g
+         id="g56251" />
+      <g
+         id="g56253" />
+      <g
+         id="g56255" />
+      <g
+         id="g56257" />
+      <g
+         id="g56259" />
+    </g>
+    <g
+       transform="translate(145.18274,892.36219)"
+       id="g56261">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56263" />
+      <g
+         id="g56265" />
+      <g
+         id="g56267" />
+      <g
+         id="g56269" />
+      <g
+         id="g56271" />
+      <g
+         id="g56273" />
+      <g
+         id="g56275" />
+      <g
+         id="g56277" />
+      <g
+         id="g56279" />
+      <g
+         id="g56281" />
+      <g
+         id="g56283" />
+      <g
+         id="g56285" />
+    </g>
+    <g
+       id="g56287"
+       transform="translate(145.18274,828.36219)">
+      <rect
+         id="rect56289"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56291" />
+      <g
+         id="g56293" />
+      <g
+         id="g56295" />
+      <g
+         id="g56297" />
+      <g
+         id="g56299" />
+      <g
+         id="g56301" />
+      <g
+         id="g56303" />
+      <g
+         id="g56305" />
+      <g
+         id="g56307" />
+      <g
+         id="g56309" />
+      <g
+         id="g56311" />
+    </g>
+    <g
+       transform="translate(145.18274,860.36219)"
+       id="g56313">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56315" />
+      <g
+         id="g56317" />
+      <g
+         id="g56319" />
+      <g
+         id="g56321" />
+      <g
+         id="g56323" />
+      <g
+         id="g56325" />
+      <g
+         id="g56327" />
+      <g
+         id="g56329" />
+      <g
+         id="g56331" />
+      <g
+         id="g56333" />
+      <g
+         id="g56335" />
+      <g
+         id="g56337" />
+    </g>
+    <g
+       transform="translate(145.18274,956.36219)"
+       id="g56339">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56341" />
+      <g
+         id="g56343" />
+      <g
+         id="g56345" />
+      <g
+         id="g56347" />
+      <g
+         id="g56349" />
+      <g
+         id="g56351" />
+      <g
+         id="g56353" />
+      <g
+         id="g56355" />
+      <g
+         id="g56357" />
+      <g
+         id="g56359" />
+      <g
+         id="g56361" />
+      <g
+         id="g56363" />
+    </g>
+    <g
+       transform="translate(145.18274,924.36219)"
+       id="g56365">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56367" />
+      <g
+         id="g56369" />
+      <g
+         id="g56371" />
+      <g
+         id="g56373" />
+      <g
+         id="g56375" />
+      <g
+         id="g56377" />
+      <g
+         id="g56379" />
+      <g
+         id="g56381" />
+      <g
+         id="g56383" />
+      <g
+         id="g56385" />
+      <g
+         id="g56387" />
+      <g
+         id="g56389" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="127.10513"
+       inkscape:transform-center-x="-46.14366"
+       transform="matrix(-1,0,0,-1,145.18274,828.36219)"
+       style="fill:#ff0000"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       id="polygon56391" />
+    <polygon
+       id="polygon56393"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,177.18274,828.36219)"
+       inkscape:transform-center-x="-46.14366"
+       inkscape:transform-center-y="127.10513" />
+    <polygon
+       inkscape:transform-center-y="127.10513"
+       inkscape:transform-center-x="-46.14366"
+       transform="matrix(-1,0,0,-1,209.18274,828.36219)"
+       style="fill:#ff0000"
+       points="29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 "
+       id="polygon56395" />
+    <g
+       transform="translate(113.18274,1052.3622)"
+       id="g56397">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56399" />
+      <g
+         id="g56401" />
+      <g
+         id="g56403" />
+      <g
+         id="g56405" />
+      <g
+         id="g56407" />
+      <g
+         id="g56409" />
+      <g
+         id="g56411" />
+      <g
+         id="g56413" />
+      <g
+         id="g56415" />
+      <g
+         id="g56417" />
+      <g
+         id="g56419" />
+      <g
+         id="g56421" />
+    </g>
+    <g
+       id="g56423"
+       transform="translate(177.18274,1052.3622)">
+      <rect
+         id="rect56425"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56427" />
+      <g
+         id="g56429" />
+      <g
+         id="g56431" />
+      <g
+         id="g56433" />
+      <g
+         id="g56435" />
+      <g
+         id="g56437" />
+      <g
+         id="g56439" />
+      <g
+         id="g56441" />
+      <g
+         id="g56443" />
+      <g
+         id="g56445" />
+      <g
+         id="g56447" />
+    </g>
+    <g
+       transform="translate(145.18274,1052.3622)"
+       id="g56449">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56451" />
+      <g
+         id="g56453" />
+      <g
+         id="g56455" />
+      <g
+         id="g56457" />
+      <g
+         id="g56459" />
+      <g
+         id="g56461" />
+      <g
+         id="g56463" />
+      <g
+         id="g56465" />
+      <g
+         id="g56467" />
+      <g
+         id="g56469" />
+      <g
+         id="g56471" />
+      <g
+         id="g56473" />
+    </g>
+    <polygon
+       id="polygon56475"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,145.18274,1052.3622)"
+       inkscape:transform-center-x="-46.14366"
+       inkscape:transform-center-y="127.10513" />
+    <polygon
+       inkscape:transform-center-y="127.10513"
+       inkscape:transform-center-x="-46.14366"
+       transform="matrix(-1,0,0,-1,177.18274,1052.3622)"
+       style="fill:#ff0000"
+       points="29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 "
+       id="polygon56477" />
+    <polygon
+       id="polygon56479"
+       points="22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 "
+       style="fill:#ff0000"
+       transform="matrix(-1,0,0,-1,209.18274,1052.3622)"
+       inkscape:transform-center-x="-46.14366"
+       inkscape:transform-center-y="127.10513" />
+    <polygon
+       transform="matrix(0,1,-1,0,241.18274,1052.3622)"
+       style="fill:#ff0000"
+       points="27.982,13.398 16.195,5 4.408,13.398 11.542,13.398 11.542,19.221 0,19.221 0,32 32,32 32,19.221 20.458,19.221 20.458,13.398 "
+       id="polygon56481" />
+    <polygon
+       transform="matrix(0,1,-1,0,241.18274,444.36219)"
+       style="fill:#ff0000"
+       points="21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 "
+       id="polygon56483" />
+    <polygon
+       id="polygon56485"
+       points="20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,241.18274,508.36219)" />
+    <g
+       transform="translate(369.18274,380.36219)"
+       id="g56513">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56515" />
+      <g
+         id="g56517" />
+      <g
+         id="g56519" />
+      <g
+         id="g56521" />
+      <g
+         id="g56523" />
+      <g
+         id="g56525" />
+      <g
+         id="g56527" />
+      <g
+         id="g56529" />
+      <g
+         id="g56531" />
+      <g
+         id="g56533" />
+      <g
+         id="g56535" />
+      <g
+         id="g56537" />
+    </g>
+    <g
+       transform="translate(369.18274,412.36219)"
+       id="g56539">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56541" />
+      <g
+         id="g56543" />
+      <g
+         id="g56545" />
+      <g
+         id="g56547" />
+      <g
+         id="g56549" />
+      <g
+         id="g56551" />
+      <g
+         id="g56553" />
+      <g
+         id="g56555" />
+      <g
+         id="g56557" />
+      <g
+         id="g56559" />
+      <g
+         id="g56561" />
+      <g
+         id="g56563" />
+    </g>
+    <g
+       id="g56565"
+       transform="translate(369.18274,444.36219)">
+      <rect
+         id="rect56567"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56569" />
+      <g
+         id="g56571" />
+      <g
+         id="g56573" />
+      <g
+         id="g56575" />
+      <g
+         id="g56577" />
+      <g
+         id="g56579" />
+      <g
+         id="g56581" />
+      <g
+         id="g56583" />
+      <g
+         id="g56585" />
+      <g
+         id="g56587" />
+      <g
+         id="g56589" />
+    </g>
+    <g
+       transform="translate(369.18274,476.36219)"
+       id="g56591">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56593" />
+      <g
+         id="g56595" />
+      <g
+         id="g56597" />
+      <g
+         id="g56599" />
+      <g
+         id="g56601" />
+      <g
+         id="g56603" />
+      <g
+         id="g56605" />
+      <g
+         id="g56607" />
+      <g
+         id="g56609" />
+      <g
+         id="g56611" />
+      <g
+         id="g56613" />
+      <g
+         id="g56615" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="177.18274"
+       y="400.86829"
+       id="text56617"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="177.18274"
+         y="400.86829"
+         id="tspan15675"
+         style="font-size:14px">a+b+c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="209.18274"
+       y="462.03986"
+       id="text56621"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan56623"
+         x="209.18274"
+         y="462.03986">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="209.18274"
+       y="528.16119"
+       id="text56625"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan56627"
+         x="209.18274"
+         y="528.16119">c</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56629"
+       y="540.36218"
+       x="126.61777"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="540.36218"
+         x="126.61777"
+         id="tspan56631"
+         sodipodi:role="line"
+         style="font-size:14px">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="157.91066"
+       y="540.36218"
+       id="text56633"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan56635"
+         x="157.91066"
+         y="540.36218">b</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56637"
+       y="540.36218"
+       x="190.61777"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="540.36218"
+         x="190.61777"
+         id="tspan56639"
+         sodipodi:role="line">c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="121.18274"
+       y="988.36218"
+       id="text56641"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan56643"
+         x="121.18274"
+         y="988.36218">x+g</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56645"
+       y="988.36218"
+       x="153.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="988.36218"
+         x="153.18274"
+         id="tspan56647"
+         sodipodi:role="line">y+h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="185.18274"
+       y="988.36218"
+       id="text56649"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan56651"
+         x="185.18274"
+         y="988.36218">z+i</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56653"
+       y="764.36218"
+       x="119.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="764.36218"
+         x="119.18274"
+         id="tspan56655"
+         sodipodi:role="line">x+d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="151.18274"
+       y="764.36218"
+       id="text56657"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan56659"
+         x="151.18274"
+         y="764.36218">y+e</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56661"
+       y="764.36218"
+       x="183.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="764.36218"
+         x="183.18274"
+         id="tspan56663"
+         sodipodi:role="line">z+f</tspan></text>
+    <g
+       id="g56665"
+       transform="translate(273.18274,508.36219)">
+      <rect
+         id="rect56667"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56669" />
+      <g
+         id="g56671" />
+      <g
+         id="g56673" />
+      <g
+         id="g56675" />
+      <g
+         id="g56677" />
+      <g
+         id="g56679" />
+      <g
+         id="g56681" />
+      <g
+         id="g56683" />
+      <g
+         id="g56685" />
+      <g
+         id="g56687" />
+      <g
+         id="g56689" />
+    </g>
+    <g
+       transform="translate(273.18274,540.36219)"
+       id="g56691">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56693" />
+      <g
+         id="g56695" />
+      <g
+         id="g56697" />
+      <g
+         id="g56699" />
+      <g
+         id="g56701" />
+      <g
+         id="g56703" />
+      <g
+         id="g56705" />
+      <g
+         id="g56707" />
+      <g
+         id="g56709" />
+      <g
+         id="g56711" />
+      <g
+         id="g56713" />
+      <g
+         id="g56715" />
+    </g>
+    <g
+       transform="translate(273.18274,572.36219)"
+       id="g56717">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56719" />
+      <g
+         id="g56721" />
+      <g
+         id="g56723" />
+      <g
+         id="g56725" />
+      <g
+         id="g56727" />
+      <g
+         id="g56729" />
+      <g
+         id="g56731" />
+      <g
+         id="g56733" />
+      <g
+         id="g56735" />
+      <g
+         id="g56737" />
+      <g
+         id="g56739" />
+      <g
+         id="g56741" />
+    </g>
+    <g
+       id="g56743"
+       transform="translate(273.18274,604.36219)">
+      <rect
+         id="rect56745"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56747" />
+      <g
+         id="g56749" />
+      <g
+         id="g56751" />
+      <g
+         id="g56753" />
+      <g
+         id="g56755" />
+      <g
+         id="g56757" />
+      <g
+         id="g56759" />
+      <g
+         id="g56761" />
+      <g
+         id="g56763" />
+      <g
+         id="g56765" />
+      <g
+         id="g56767" />
+    </g>
+    <g
+       transform="translate(273.18274,636.36219)"
+       id="g56769">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56771" />
+      <g
+         id="g56773" />
+      <g
+         id="g56775" />
+      <g
+         id="g56777" />
+      <g
+         id="g56779" />
+      <g
+         id="g56781" />
+      <g
+         id="g56783" />
+      <g
+         id="g56785" />
+      <g
+         id="g56787" />
+      <g
+         id="g56789" />
+      <g
+         id="g56791" />
+      <g
+         id="g56793" />
+    </g>
+    <g
+       transform="translate(273.18274,316.36219)"
+       id="g56795">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56797" />
+      <g
+         id="g56799" />
+      <g
+         id="g56801" />
+      <g
+         id="g56803" />
+      <g
+         id="g56805" />
+      <g
+         id="g56807" />
+      <g
+         id="g56809" />
+      <g
+         id="g56811" />
+      <g
+         id="g56813" />
+      <g
+         id="g56815" />
+      <g
+         id="g56817" />
+      <g
+         id="g56819" />
+    </g>
+    <g
+       id="g56821"
+       transform="translate(273.18274,476.36219)">
+      <rect
+         id="rect56823"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56825" />
+      <g
+         id="g56827" />
+      <g
+         id="g56829" />
+      <g
+         id="g56831" />
+      <g
+         id="g56833" />
+      <g
+         id="g56835" />
+      <g
+         id="g56837" />
+      <g
+         id="g56839" />
+      <g
+         id="g56841" />
+      <g
+         id="g56843" />
+      <g
+         id="g56845" />
+    </g>
+    <polygon
+       id="polygon56847"
+       points="10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,273.18274,508.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <polygon
+       transform="matrix(0,-1,1,0,241.18274,636.36219)"
+       style="fill:#ff0000"
+       points="16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 "
+       id="polygon56849" />
+    <polygon
+       id="polygon56851"
+       points="2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 "
+       style="fill:#ff0000"
+       transform="matrix(0,-1,1,0,241.18274,668.36219)" />
+    <polygon
+       inkscape:transform-center-y="46.143667"
+       inkscape:transform-center-x="127.10513"
+       transform="matrix(0,-1,1,0,209.18274,636.36219)"
+       style="fill:#ff0000"
+       points="29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 "
+       id="polygon56853" />
+    <polygon
+       id="polygon56855"
+       points="22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 "
+       style="fill:#ff0000"
+       transform="matrix(0,-1,1,0,209.18274,668.36219)"
+       inkscape:transform-center-x="127.10513"
+       inkscape:transform-center-y="46.143667" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text56857"
+       y="624.34137"
+       x="241.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="624.34137"
+         x="241.18274"
+         id="tspan56859"
+         sodipodi:role="line">l</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56861"
+       y="654.92712"
+       x="232.51727"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="654.92712"
+         x="232.51727"
+         id="tspan56863"
+         sodipodi:role="line">m</tspan></text>
+    <polygon
+       id="polygon56865"
+       points="22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,241.18274,700.36219)" />
+    <polygon
+       transform="matrix(0,1,-1,0,241.18274,732.36219)"
+       style="fill:#ff0000"
+       points="29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 "
+       id="polygon56867" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text56869"
+       y="710.96881"
+       x="197.86903"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="710.96881"
+         x="197.86903"
+         id="tspan56871"
+         sodipodi:role="line">l+e</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text56873"
+       y="740.84747"
+       x="191.50508"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="740.84747"
+         x="191.50508"
+         id="tspan56875"
+         sodipodi:role="line">m+e</tspan></text>
+    <polygon
+       id="polygon56877"
+       points="10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,273.18274,700.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       transform="translate(273.18274,764.36219)"
+       id="g56879">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56881" />
+      <g
+         id="g56883" />
+      <g
+         id="g56885" />
+      <g
+         id="g56887" />
+      <g
+         id="g56889" />
+      <g
+         id="g56891" />
+      <g
+         id="g56893" />
+      <g
+         id="g56895" />
+      <g
+         id="g56897" />
+      <g
+         id="g56899" />
+      <g
+         id="g56901" />
+      <g
+         id="g56903" />
+    </g>
+    <g
+       id="g56905"
+       transform="translate(273.18274,796.36219)">
+      <rect
+         id="rect56907"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56909" />
+      <g
+         id="g56911" />
+      <g
+         id="g56913" />
+      <g
+         id="g56915" />
+      <g
+         id="g56917" />
+      <g
+         id="g56919" />
+      <g
+         id="g56921" />
+      <g
+         id="g56923" />
+      <g
+         id="g56925" />
+      <g
+         id="g56927" />
+      <g
+         id="g56929" />
+    </g>
+    <g
+       id="g56931"
+       transform="translate(273.18274,828.36219)">
+      <rect
+         id="rect56933"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g56935" />
+      <g
+         id="g56937" />
+      <g
+         id="g56939" />
+      <g
+         id="g56941" />
+      <g
+         id="g56943" />
+      <g
+         id="g56945" />
+      <g
+         id="g56947" />
+      <g
+         id="g56949" />
+      <g
+         id="g56951" />
+      <g
+         id="g56953" />
+      <g
+         id="g56955" />
+    </g>
+    <g
+       transform="translate(273.18274,860.36219)"
+       id="g56957">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect56959" />
+      <g
+         id="g56961" />
+      <g
+         id="g56963" />
+      <g
+         id="g56965" />
+      <g
+         id="g56967" />
+      <g
+         id="g56969" />
+      <g
+         id="g56971" />
+      <g
+         id="g56973" />
+      <g
+         id="g56975" />
+      <g
+         id="g56977" />
+      <g
+         id="g56979" />
+      <g
+         id="g56981" />
+    </g>
+    <g
+       id="g57009"
+       transform="translate(273.18274,700.36219)">
+      <rect
+         id="rect57011"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57013" />
+      <g
+         id="g57015" />
+      <g
+         id="g57017" />
+      <g
+         id="g57019" />
+      <g
+         id="g57021" />
+      <g
+         id="g57023" />
+      <g
+         id="g57025" />
+      <g
+         id="g57027" />
+      <g
+         id="g57029" />
+      <g
+         id="g57031" />
+      <g
+         id="g57033" />
+    </g>
+    <g
+       transform="translate(273.18274,732.36219)"
+       id="g57035">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57037" />
+      <g
+         id="g57039" />
+      <g
+         id="g57041" />
+      <g
+         id="g57043" />
+      <g
+         id="g57045" />
+      <g
+         id="g57047" />
+      <g
+         id="g57049" />
+      <g
+         id="g57051" />
+      <g
+         id="g57053" />
+      <g
+         id="g57055" />
+      <g
+         id="g57057" />
+      <g
+         id="g57059" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,273.18274,732.36219)"
+       style="fill:#ff0000"
+       points="2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 "
+       id="polygon57061" />
+    <polygon
+       id="polygon57063"
+       points="9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 "
+       style="fill:#ff0000"
+       transform="matrix(0,-1,1,0,241.18274,860.36219)" />
+    <polygon
+       transform="matrix(0,-1,1,0,241.18274,892.36219)"
+       style="fill:#ff0000"
+       points="10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 "
+       id="polygon57065" />
+    <polygon
+       id="polygon57067"
+       points="22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 "
+       style="fill:#ff0000"
+       transform="matrix(0,-1,1,0,209.18274,860.36219)"
+       inkscape:transform-center-x="127.10513"
+       inkscape:transform-center-y="46.143667" />
+    <polygon
+       inkscape:transform-center-y="46.143667"
+       inkscape:transform-center-x="127.10513"
+       transform="matrix(0,-1,1,0,209.18274,892.36219)"
+       style="fill:#ff0000"
+       points="20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 "
+       id="polygon57069" />
+    <polygon
+       transform="matrix(0,1,-1,0,241.18274,924.36219)"
+       style="fill:#ff0000"
+       points="29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 "
+       id="polygon57071" />
+    <polygon
+       id="polygon57073"
+       points="16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,241.18274,956.36219)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="193.62639"
+       y="935.8288"
+       id="text57075"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan57077"
+         x="193.62639"
+         y="935.8288">l+i</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="187.26244"
+       y="965.70746"
+       id="text57079"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan57081"
+         x="187.26244"
+         y="965.70746">m+g</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text57083"
+       y="848.34137"
+       x="233.22438"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="848.34137"
+         x="233.22438"
+         id="tspan57085"
+         sodipodi:role="line">l</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text57087"
+       y="879.63428"
+       x="231.10304"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="879.63428"
+         x="231.10304"
+         id="tspan57089"
+         sodipodi:role="line">m</tspan></text>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,273.18274,924.36219)"
+       style="fill:#ff0000"
+       points="9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 "
+       id="polygon57091" />
+    <g
+       transform="translate(273.18274,924.36219)"
+       id="g57093">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57095" />
+      <g
+         id="g57097" />
+      <g
+         id="g57099" />
+      <g
+         id="g57101" />
+      <g
+         id="g57103" />
+      <g
+         id="g57105" />
+      <g
+         id="g57107" />
+      <g
+         id="g57109" />
+      <g
+         id="g57111" />
+      <g
+         id="g57113" />
+      <g
+         id="g57115" />
+      <g
+         id="g57117" />
+    </g>
+    <g
+       id="g57119"
+       transform="translate(273.18274,956.36219)">
+      <rect
+         id="rect57121"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57123" />
+      <g
+         id="g57125" />
+      <g
+         id="g57127" />
+      <g
+         id="g57129" />
+      <g
+         id="g57131" />
+      <g
+         id="g57133" />
+      <g
+         id="g57135" />
+      <g
+         id="g57137" />
+      <g
+         id="g57139" />
+      <g
+         id="g57141" />
+      <g
+         id="g57143" />
+    </g>
+    <polygon
+       id="polygon57145"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,273.18274,956.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <polygon
+       id="polygon57147"
+       points="4.408,13.398 11.542,13.398 11.542,19.221 0,19.221 0,32 32,32 32,19.221 20.458,19.221 20.458,13.398 27.982,13.398 16.195,5 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,369.18274,956.36219)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="125.18274"
+       y="611.284"
+       id="text57149"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan57151"
+         x="125.18274"
+         y="611.284">x</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text57153"
+       y="611.284"
+       x="157.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="611.284"
+         x="157.18274"
+         id="tspan57155"
+         sodipodi:role="line">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="189.18274"
+       y="611.284"
+       id="text57157"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan57159"
+         x="189.18274"
+         y="611.284">z</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text57177"
+       y="836.85107"
+       x="125.88985"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="836.85107"
+         x="125.88985"
+         id="tspan57179"
+         sodipodi:role="line">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="157.88985"
+       y="836.85107"
+       id="text57181"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan57183"
+         x="157.88985"
+         y="836.85107">y</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text57185"
+       y="836.85107"
+       x="189.88985"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="836.85107"
+         x="189.88985"
+         id="tspan57187"
+         sodipodi:role="line">z</tspan></text>
+    <polygon
+       transform="matrix(0,1,-1,0,465.18274,956.36219)"
+       style="fill:#ff0000"
+       points="11.542,13.398 4.408,13.398 16.195,5 27.982,13.398 20.458,13.398 20.458,19.221 32,19.221 32,0 0,0 0,19.221 11.542,19.221 "
+       id="polygon57189" />
+    <polygon
+       id="polygon57191"
+       points="27.982,13.398 20.458,13.398 20.458,19.221 32,19.221 32,0 0,0 0,19.221 11.542,19.221 11.542,13.398 4.408,13.398 16.195,5 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,401.18274,1052.3622)" />
+    <g
+       transform="translate(465.18274,892.36219)"
+       id="g57193">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57195" />
+      <g
+         id="g57197" />
+      <g
+         id="g57199" />
+      <g
+         id="g57201" />
+      <g
+         id="g57203" />
+      <g
+         id="g57205" />
+      <g
+         id="g57207" />
+      <g
+         id="g57209" />
+      <g
+         id="g57211" />
+      <g
+         id="g57213" />
+      <g
+         id="g57215" />
+      <g
+         id="g57217" />
+    </g>
+    <g
+       transform="translate(465.18274,732.3622)"
+       id="g57219">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57221" />
+      <g
+         id="g57223" />
+      <g
+         id="g57225" />
+      <g
+         id="g57227" />
+      <g
+         id="g57229" />
+      <g
+         id="g57231" />
+      <g
+         id="g57233" />
+      <g
+         id="g57235" />
+      <g
+         id="g57237" />
+      <g
+         id="g57239" />
+      <g
+         id="g57241" />
+      <g
+         id="g57243" />
+    </g>
+    <g
+       id="g57245"
+       transform="translate(465.18274,764.36219)">
+      <rect
+         id="rect57247"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57249" />
+      <g
+         id="g57251" />
+      <g
+         id="g57253" />
+      <g
+         id="g57255" />
+      <g
+         id="g57257" />
+      <g
+         id="g57259" />
+      <g
+         id="g57261" />
+      <g
+         id="g57263" />
+      <g
+         id="g57265" />
+      <g
+         id="g57267" />
+      <g
+         id="g57269" />
+    </g>
+    <g
+       id="g57271"
+       transform="translate(465.18274,796.36219)">
+      <rect
+         id="rect57273"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57275" />
+      <g
+         id="g57277" />
+      <g
+         id="g57279" />
+      <g
+         id="g57281" />
+      <g
+         id="g57283" />
+      <g
+         id="g57285" />
+      <g
+         id="g57287" />
+      <g
+         id="g57289" />
+      <g
+         id="g57291" />
+      <g
+         id="g57293" />
+      <g
+         id="g57295" />
+    </g>
+    <g
+       transform="translate(465.18274,828.36219)"
+       id="g57297">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57299" />
+      <g
+         id="g57301" />
+      <g
+         id="g57303" />
+      <g
+         id="g57305" />
+      <g
+         id="g57307" />
+      <g
+         id="g57309" />
+      <g
+         id="g57311" />
+      <g
+         id="g57313" />
+      <g
+         id="g57315" />
+      <g
+         id="g57317" />
+      <g
+         id="g57319" />
+      <g
+         id="g57321" />
+    </g>
+    <g
+       id="g57323"
+       transform="translate(465.18274,860.36219)">
+      <rect
+         id="rect57325"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57327" />
+      <g
+         id="g57329" />
+      <g
+         id="g57331" />
+      <g
+         id="g57333" />
+      <g
+         id="g57335" />
+      <g
+         id="g57337" />
+      <g
+         id="g57339" />
+      <g
+         id="g57341" />
+      <g
+         id="g57343" />
+      <g
+         id="g57345" />
+      <g
+         id="g57347" />
+    </g>
+    <g
+       transform="translate(465.18274,924.36219)"
+       id="g57349">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57351" />
+      <g
+         id="g57353" />
+      <g
+         id="g57355" />
+      <g
+         id="g57357" />
+      <g
+         id="g57359" />
+      <g
+         id="g57361" />
+      <g
+         id="g57363" />
+      <g
+         id="g57365" />
+      <g
+         id="g57367" />
+      <g
+         id="g57369" />
+      <g
+         id="g57371" />
+      <g
+         id="g57373" />
+    </g>
+    <g
+       transform="translate(465.18274,988.36219)"
+       id="g57375">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57377" />
+      <g
+         id="g57379" />
+      <g
+         id="g57381" />
+      <g
+         id="g57383" />
+      <g
+         id="g57385" />
+      <g
+         id="g57387" />
+      <g
+         id="g57389" />
+      <g
+         id="g57391" />
+      <g
+         id="g57393" />
+      <g
+         id="g57395" />
+      <g
+         id="g57397" />
+      <g
+         id="g57399" />
+    </g>
+    <g
+       id="g57401"
+       transform="translate(465.18274,956.36219)">
+      <rect
+         id="rect57403"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57405" />
+      <g
+         id="g57407" />
+      <g
+         id="g57409" />
+      <g
+         id="g57411" />
+      <g
+         id="g57413" />
+      <g
+         id="g57415" />
+      <g
+         id="g57417" />
+      <g
+         id="g57419" />
+      <g
+         id="g57421" />
+      <g
+         id="g57423" />
+      <g
+         id="g57425" />
+    </g>
+    <g
+       transform="translate(465.18274,1020.3622)"
+       id="g57427">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57429" />
+      <g
+         id="g57431" />
+      <g
+         id="g57433" />
+      <g
+         id="g57435" />
+      <g
+         id="g57437" />
+      <g
+         id="g57439" />
+      <g
+         id="g57441" />
+      <g
+         id="g57443" />
+      <g
+         id="g57445" />
+      <g
+         id="g57447" />
+      <g
+         id="g57449" />
+      <g
+         id="g57451" />
+    </g>
+    <g
+       id="g57453"
+       transform="translate(465.18274,1052.3622)">
+      <rect
+         id="rect57455"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57457" />
+      <g
+         id="g57459" />
+      <g
+         id="g57461" />
+      <g
+         id="g57463" />
+      <g
+         id="g57465" />
+      <g
+         id="g57467" />
+      <g
+         id="g57469" />
+      <g
+         id="g57471" />
+      <g
+         id="g57473" />
+      <g
+         id="g57475" />
+      <g
+         id="g57477" />
+    </g>
+    <g
+       transform="translate(337.18274,892.36219)"
+       id="g57479">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57481" />
+      <g
+         id="g57483" />
+      <g
+         id="g57485" />
+      <g
+         id="g57487" />
+      <g
+         id="g57489" />
+      <g
+         id="g57491" />
+      <g
+         id="g57493" />
+      <g
+         id="g57495" />
+      <g
+         id="g57497" />
+      <g
+         id="g57499" />
+      <g
+         id="g57501" />
+      <g
+         id="g57503" />
+    </g>
+    <g
+       id="g57505"
+       transform="translate(337.18274,668.36219)">
+      <rect
+         id="rect57507"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57509" />
+      <g
+         id="g57511" />
+      <g
+         id="g57513" />
+      <g
+         id="g57515" />
+      <g
+         id="g57517" />
+      <g
+         id="g57519" />
+      <g
+         id="g57521" />
+      <g
+         id="g57523" />
+      <g
+         id="g57525" />
+      <g
+         id="g57527" />
+      <g
+         id="g57529" />
+    </g>
+    <g
+       id="g57531"
+       transform="translate(337.18274,380.36219)">
+      <rect
+         id="rect57533"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57535" />
+      <g
+         id="g57537" />
+      <g
+         id="g57539" />
+      <g
+         id="g57541" />
+      <g
+         id="g57543" />
+      <g
+         id="g57545" />
+      <g
+         id="g57547" />
+      <g
+         id="g57549" />
+      <g
+         id="g57551" />
+      <g
+         id="g57553" />
+      <g
+         id="g57555" />
+    </g>
+    <g
+       transform="translate(401.18274,1052.3622)"
+       id="g57557">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57559" />
+      <g
+         id="g57561" />
+      <g
+         id="g57563" />
+      <g
+         id="g57565" />
+      <g
+         id="g57567" />
+      <g
+         id="g57569" />
+      <g
+         id="g57571" />
+      <g
+         id="g57573" />
+      <g
+         id="g57575" />
+      <g
+         id="g57577" />
+      <g
+         id="g57579" />
+      <g
+         id="g57581" />
+    </g>
+    <g
+       id="g57583"
+       transform="translate(433.18274,1052.3622)">
+      <rect
+         id="rect57585"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g57587" />
+      <g
+         id="g57589" />
+      <g
+         id="g57591" />
+      <g
+         id="g57593" />
+      <g
+         id="g57595" />
+      <g
+         id="g57597" />
+      <g
+         id="g57599" />
+      <g
+         id="g57601" />
+      <g
+         id="g57603" />
+      <g
+         id="g57605" />
+      <g
+         id="g57607" />
+    </g>
+    <g
+       transform="translate(305.18274,956.36219)"
+       id="g57609">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect57611" />
+      <g
+         id="g57613" />
+      <g
+         id="g57615" />
+      <g
+         id="g57617" />
+      <g
+         id="g57619" />
+      <g
+         id="g57621" />
+      <g
+         id="g57623" />
+      <g
+         id="g57625" />
+      <g
+         id="g57627" />
+      <g
+         id="g57629" />
+      <g
+         id="g57631" />
+      <g
+         id="g57633" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,529.18274,892.36219)"
+       style="fill:#ff0000"
+       points="11.542,19.221 0,19.221 0,32 32,32 32,19.221 20.458,19.221 20.458,13.398 27.982,13.398 16.195,5 4.408,13.398 11.542,13.398 "
+       id="polygon57635" />
+    <g
+       transform="translate(561.18274,892.36219)"
+       id="g5989-0">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect5991-0" />
+      <g
+         id="g5993-6" />
+      <g
+         id="g5995-1" />
+      <g
+         id="g5997-3" />
+      <g
+         id="g5999-8" />
+      <g
+         id="g6001-9" />
+      <g
+         id="g6003-3" />
+      <g
+         id="g6005-4" />
+      <g
+         id="g6007-4" />
+      <g
+         id="g6009-6" />
+      <g
+         id="g6011-0" />
+      <g
+         id="g6013-6" />
+    </g>
+    <polygon
+       transform="matrix(0,1,-1,0,561.18274,892.36219)"
+       style="fill:#ff0000"
+       points="4.408,13.398 16.195,5 27.982,13.398 20.458,13.398 20.458,19.221 32,19.221 32,0 0,0 0,19.221 11.542,19.221 11.542,13.398 "
+       id="polygon6015-6" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text15679"
+       y="687.63428"
+       x="177.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan15681"
+         y="687.63428"
+         x="177.18274"
+         sodipodi:role="line">d+e+f</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="81.182739"
+       y="527.63428"
+       id="text15683"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15685"
+         x="81.182739"
+         y="527.63428">c</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15699"
+       y="466.82309"
+       x="81.182739"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="466.82309"
+         x="81.182739"
+         id="tspan15701"
+         sodipodi:role="line">b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="81.182739"
+       y="400.35504"
+       id="text15703"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:14px"
+         sodipodi:role="line"
+         id="tspan15705"
+         x="81.182739"
+         y="400.35504">a</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15707"
+       y="749.66583"
+       x="81.182739"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="749.66583"
+         x="81.182739"
+         id="tspan15709"
+         sodipodi:role="line">f</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="81.182739"
+       y="688.85461"
+       id="text15711"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15713"
+         x="81.182739"
+         y="688.85461">e</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15715"
+       y="622.3866"
+       x="81.182739"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="622.3866"
+         x="81.182739"
+         id="tspan15717"
+         sodipodi:role="line"
+         style="font-size:14px">d</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="81.182739"
+       y="975.23291"
+       id="text15719"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="81.182739"
+         y="975.23291"
+         id="tspan15731">i</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15723"
+       y="914.42169"
+       x="81.182739"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="914.42169"
+         x="81.182739"
+         id="tspan15725"
+         sodipodi:role="line">h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="81.182739"
+       y="847.95367"
+       id="text15727"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:14px"
+         sodipodi:role="line"
+         id="tspan15729"
+         x="81.182739"
+         y="847.95367">g</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15735"
+       y="1070.329"
+       x="129.55917"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px"
+         y="1070.329"
+         x="129.55917"
+         id="tspan15737"
+         sodipodi:role="line">isEqual</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="273.18274"
+       y="978.40509"
+       id="text15739"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15741"
+         x="273.18274"
+         y="978.40509"
+         style="font-size:20px">isEqual</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15743"
+       y="687.78418"
+       x="337.18274"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px"
+         y="687.78418"
+         x="337.18274"
+         id="tspan15745"
+         sodipodi:role="line">isEqual</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="465.18274"
+       y="916.17969"
+       id="text15747"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15749"
+         x="465.18274"
+         y="916.17969"
+         style="font-size:20px">AND</tspan></text>
+    <polygon
+       id="polygon15751"
+       points="9.475,14.375 2.949,8 16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 "
+       style="fill:#ff0000"
+       transform="matrix(0,1,-1,0,273.18274,156.36219)"
+       inkscape:transform-center-x="-127.10513"
+       inkscape:transform-center-y="-46.143663" />
+    <g
+       transform="translate(273.18274,220.36219)"
+       id="g15753">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect15755" />
+      <g
+         id="g15757" />
+      <g
+         id="g15759" />
+      <g
+         id="g15761" />
+      <g
+         id="g15763" />
+      <g
+         id="g15765" />
+      <g
+         id="g15767" />
+      <g
+         id="g15769" />
+      <g
+         id="g15771" />
+      <g
+         id="g15773" />
+      <g
+         id="g15775" />
+      <g
+         id="g15777" />
+    </g>
+    <g
+       id="g15805"
+       transform="translate(273.18274,252.36219)">
+      <rect
+         id="rect15807"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g15809" />
+      <g
+         id="g15811" />
+      <g
+         id="g15813" />
+      <g
+         id="g15815" />
+      <g
+         id="g15817" />
+      <g
+         id="g15819" />
+      <g
+         id="g15821" />
+      <g
+         id="g15823" />
+      <g
+         id="g15825" />
+      <g
+         id="g15827" />
+      <g
+         id="g15829" />
+    </g>
+    <g
+       transform="translate(273.18274,284.36218)"
+       id="g15831">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect15833" />
+      <g
+         id="g15835" />
+      <g
+         id="g15837" />
+      <g
+         id="g15839" />
+      <g
+         id="g15841" />
+      <g
+         id="g15843" />
+      <g
+         id="g15845" />
+      <g
+         id="g15847" />
+      <g
+         id="g15849" />
+      <g
+         id="g15851" />
+      <g
+         id="g15853" />
+      <g
+         id="g15855" />
+    </g>
+    <g
+       id="g15857"
+       transform="translate(273.18274,444.36219)">
+      <rect
+         id="rect15859"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g15861" />
+      <g
+         id="g15863" />
+      <g
+         id="g15865" />
+      <g
+         id="g15867" />
+      <g
+         id="g15869" />
+      <g
+         id="g15871" />
+      <g
+         id="g15873" />
+      <g
+         id="g15875" />
+      <g
+         id="g15877" />
+      <g
+         id="g15879" />
+      <g
+         id="g15881" />
+    </g>
+    <g
+       id="g15883"
+       transform="translate(273.18274,156.36219)">
+      <rect
+         id="rect15885"
+         height="32"
+         width="32"
+         x="0"
+         y="0"
+         style="fill:#ff0000" />
+      <g
+         id="g15887" />
+      <g
+         id="g15889" />
+      <g
+         id="g15891" />
+      <g
+         id="g15893" />
+      <g
+         id="g15895" />
+      <g
+         id="g15897" />
+      <g
+         id="g15899" />
+      <g
+         id="g15901" />
+      <g
+         id="g15903" />
+      <g
+         id="g15905" />
+      <g
+         id="g15907" />
+    </g>
+    <g
+       transform="translate(273.18274,188.36219)"
+       id="g15909">
+      <rect
+         style="fill:#ff0000"
+         y="0"
+         x="0"
+         width="32"
+         height="32"
+         id="rect15911" />
+      <g
+         id="g15913" />
+      <g
+         id="g15915" />
+      <g
+         id="g15917" />
+      <g
+         id="g15919" />
+      <g
+         id="g15921" />
+      <g
+         id="g15923" />
+      <g
+         id="g15925" />
+      <g
+         id="g15927" />
+      <g
+         id="g15929" />
+      <g
+         id="g15931" />
+      <g
+         id="g15933" />
+    </g>
+    <polygon
+       inkscape:transform-center-y="-46.143663"
+       inkscape:transform-center-x="-127.10513"
+       transform="matrix(0,1,-1,0,273.18274,188.36219)"
+       style="fill:#ff0000"
+       points="16,8 29.051,8 22.525,14.375 20.647,16.209 21.164,19.221 32,19.221 32,0 0,0 0,19.221 10.243,19.221 10.821,15.857 10.991,15.857 9.475,14.375 2.949,8 "
+       id="polygon15935" />
+    <polygon
+       id="polygon15937"
+       points="10.991,15.857 10.821,15.857 10.243,19.221 0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 "
+       style="fill:#ff0000"
+       transform="matrix(0,-1,1,0,241.18274,316.36219)" />
+    <polygon
+       transform="matrix(0,-1,1,0,241.18274,348.36219)"
+       style="fill:#ff0000"
+       points="0,19.221 0,32 32,32 32,19.221 21.164,19.221 20.647,16.209 22.525,14.375 29.051,8 16,8 2.949,8 9.475,14.375 10.991,15.857 10.821,15.857 10.243,19.221 "
+       id="polygon15939" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="259.01328"
+       y="145.31071"
+       id="text15941"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15943"
+         x="259.01328"
+         y="145.31071"
+         style="font-size:20px">pipe</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="273.18274"
+       y="206.60779"
+       id="text15945"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan15947"
+         x="273.18274"
+         y="206.60779">b</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15949"
+       y="173.37376"
+       x="273.18274"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="173.37376"
+         x="273.18274"
+         id="tspan15951"
+         sodipodi:role="line"
+         style="font-size:14px">a</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text15953"
+       y="338.83676"
+       x="273.18274"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="338.83676"
+         x="273.18274"
+         id="tspan15955"
+         sodipodi:role="line">b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="273.18274"
+       y="305.60272"
+       id="text15957"
+       sodipodi:linespacing="125%"><tspan
+         style="font-size:14px"
+         sodipodi:role="line"
+         id="tspan15959"
+         x="273.18274"
+         y="305.60272">a</tspan></text>
+  </g>
+</svg>
