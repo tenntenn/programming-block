@@ -45,3 +45,12 @@ if [ -e css ]; then
     cp -r css/* dist/css/
     echo "copied css files."
 fi
+
+# copy images
+if [ -e img ]; then
+    echo "copying images..."
+    mkdir dist/img
+    cp -r img/* dist/img/
+    find dist/img -name "*.ai" | xargs rm
+    echo "copied images."
+fi
