@@ -1,5 +1,15 @@
-#!/bin/sh
+#!/bin/bash
 
 pushd `dirname $0` > /dev/null
-cat ../../../js/package.js ../../../js/block/block.js blockTest.js | node
+
+blockFiles=""
+blockJsDir="../../../js/block/*.js"
+
+for i in `ls $blockJsDir`
+do
+    blockFiles="$blockFiles $i"
+done
+
+cat ../../../js/package.js $blockJsDir blockTest.js | node
 popd > /dev/null
+

@@ -204,6 +204,14 @@ pb.Combine = function(connections) {
             var pin;
             var pinIndex;
             var connectedPosition;
+            
+        	// 雄ブロックの入力から削除する予定の pin コネクタの index
+            // 雄ブロックごとに記憶
+            var deleteSourceResults = [];
+            for (i = 0; i < pinBlocks.length; i++) {
+            	deleteSourceResults[i] = []; 
+            }
+            
             for (i = 0; i < socketBlocks.length; i++) {
                 socket = socketBlocks[i].block;
                 for (j = 0; j < socketBlocks[i].connect.length; j++) {
@@ -215,9 +223,11 @@ pb.Combine = function(connections) {
                     destInputSets[i].splice(connectedPosition, 0, sourceResults[pinIndex].slice(pin.id, pin.id + 1)[0]);
                 }
             }
-            for (i = 0; i < sourceResults.length; i++) {
-                for (j = pinBlocks.length - 1; j >= 0; j--) {
-                    sourceResults[i].splice(j, 1);
+            
+            // 差し込んだ雄ブロックの出力を削除            
+            for (i = 0; i < pinBlocks.length; i++) {
+                for (j = pinBlocks[i].connect.length - 1; j >= 0; j--) {
+                    sourceResults[i].splice(pinBlocks[i].connect[j], 1);
                 }
             }
         })();
