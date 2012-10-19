@@ -1,6 +1,6 @@
 (function() {
 
-    sb.view.ViewBox = function(svg, param) {
+    pb.view.ViewBox = function(svg, param) {
 
         var that = this;
         var x = param["x"] & 0;
