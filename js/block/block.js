@@ -1,27 +1,23 @@
 /**
  * 単体ブロック
- * @param {Array} inputs
- * @param {Array} outputs
+ * @param {Array<function pb.model.connection>} inputs
+ * @param {Array<function pb.model.connection>} outputs
  * @param {function} func
  */
-pb.Block = function(inputs, outputs, func) {
+pb.model.Block = function(inputConnectors, outputConnectors, func) {
     var i;
     
     var that = this;
     // input
-    this.inputs = inputs;
-    for (i = 0; i < inputs.length; i++) {
-        this.inputs[i].owner = that;
-        
-        this.inputs[i].id = i;
+    this.inputs = [];
+    for (i = 0; i < inputConnectors.length; i++) {
+    	this.inputs[i] = inputConnectors[i](that, i);
     }
 
     // output
-    this.outputs = outputs;
-    for (i = 0; i < outputs.length; i++) {
-        this.outputs[i].owner = that;
-        
-        this.outputs[i].id = i;
+    this.outputs = [];
+    for (i = 0; i < outputConnectors.length; i++) {
+    	this.outputs[i] = outputConnectors[i](that, i);
     };
 
     // func
@@ -29,4 +25,3 @@ pb.Block = function(inputs, outputs, func) {
     // blocks
     this.blocks = [that];
 };
-

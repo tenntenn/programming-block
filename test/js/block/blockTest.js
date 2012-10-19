@@ -1,64 +1,105 @@
 // TestSample
 
 // block1
-var bk1_in1 = new pb.Connector("x", "int", ["hoge", "foo"]);
-var bk1_in2 = new pb.Connector("y", "int", ["hoge", "huge"]);
+var bk1_in1 = pb.model.connector("x", "int", ["ikko"]);
+var bk1_in2 = pb.model.connector("y", "int", ["niko", "niko"]);
 
-var bk1_out1 = new pb.Connector("add", "int", []);
-var bk1_out2 = new pb.Connector("subs", "int", []);
+var bk1_out1 = pb.model.connector("add", "int", []);
+var bk1_out2 = pb.model.connector("subs", "int", []);
 
 
-var bk1 = new pb.Block(
+var bk1 = new pb.model.Block(
     // inputs
     [bk1_in1, bk1_in2],
     // outputs
     [bk1_out1, bk1_out2],
+    //[bk1_out1],
     // func
     function(input) {
-        return [input[0] + input[1], input[0] - input[1]];
+        return [input[0] + input[1], input[0]-input[1]];
 });
 
-// block2
-var bk2_in1 = new pb.Connector("a", "int", []);
-var bk2_in2 = new pb.Connector("b", "int", []);
-var bk2_out1 = new pb.Connector("miulti", "int", []);
+/////////////// 数値
+var numberTerminals = (function(){
+    var i;
+    var numbers = ["one", "two", "three",
+		   "four", "five", "six", 
+		   "seven", "eight", "nine" ];
+    var results = [];
+    var connectors = (function(){
+	var conR = [];
+	for (i = 0; i < numbers.length; i++) {
+	    conR[i] = new pb.model.connector(numbers[i], "int", []);
+	}
+	return conR
+    })();
+    
+    results[0] = new pb.model.Block( 
+	[], [connectors[0]], function(input){
+	    return [ 0 ];
+	}
+    );
+    results[1] = new pb.model.Block(
+	[], [connectors[1]], function(input){
+	    return [ 1 ];
+	}
+    );
+    results[2] = new pb.model.Block(
+	[], [connectors[2]], function(input){
+	    return [ 2 ];
+	}
+    );
+    results[3] = new pb.model.Block(
+	[], [connectors[3]], function(input){
+	    return [ 3 ];
+	}
+    );
+    results[4] = new pb.model.Block(
+	[], [connectors[4]], function(input){
+	    return [ 4 ];
+	}
+    );
+    results[5] = new pb.model.Block(
+	[], [connectors[5]], function(input){
+	    return [ 5 ];
+	}
+    );
+    results[6] = new pb.model.Block(
+	[], [connectors[6]], function(input){
+	    return [ 6 ];
+	}
+    );
+    results[7] = new pb.model.Block(
+	[], [connectors[7]], function(input){
+	    return [ 7 ];
+	}
+    );
+    results[8] = new pb.model.Block(
+	[], [connectors[8]], function(input){
+	    return [ 8 ];
+	}
+    );
+    return results;
+})();
 
-var bk2 = new pb.Block(
-    // inputs
-    [bk2_in1, bk2_in2],
-    // output
-    [bk2_out1],
-    // func
-    function(input) {
-        return [input[0] * input[1]];
-});
 
+var connections = (function(){
+	var result = [];
+	
+	result[0] = new pb.model.Connection(
+			numberTerminals[2].outputs[0],
+			bk1.inputs[0]);
+	result[1] = new pb.model.Connection(
+			numberTerminals[5].outputs[0],
+			bk1.inputs[1]);
+	
+	return result;
+})();
 
-console.log(bk1.func([3, 4]));
-console.log(bk2.func([7, -1]));
-
-
-// block3
-var bk3_in1 = new pb.Connector("tashi", "int", []);
-var bk3_in2 = new pb.Connector("hiki", "int", []);
-var bk3_in3 = new pb.Connector("kake", "int", []);
-
-var bk3_out1 = new pb.Connector("shuturyoku", "int", []);
-
-var bk3 = new pb.Block(
-    [ bk3_in1, bk3_in2, bk3_in3 ],
-    [ bk3_out1 ], 
-    function(input) {
-        return [ input[0] + input[1] + input[2] ];
-    }
-);
-
-var con1 = new pb.Connection(bk1.outputs[0], bk3.inputs[0]);
-var con2 = new pb.Connection(bk1.outputs[1], bk3.inputs[1]);
-var con3 = new pb.Connection(bk2.outputs[0], bk3.inputs[2]);
-
-var cb3 = new pb.Combine([con1, con2, con3]);
-
-console.log(cb3.func([6,3,8,2]));
+var cb = new pb.model.Combine(connections);
+console.log(cb.func([]));
 
 console.log("------------end-----------");
+
+
+
