@@ -4,7 +4,7 @@
      * ブロックのビューモデルです。
      * @constructor
      */
-    sb.view.Block = function(name, model, x, y, col, row, panels) {
+    pb.view.Block = function(name, model, x, y, col, row, panels) {
         var that = this;
         this.x = ko.observable(x);
         this.y = ko.observable(y);         
@@ -32,7 +32,7 @@
         });
     };
 
-    sb.view.renderBlocks(node, viewBox, blocks) {
+    pb.view.renderBlocks(node, viewBox, blocks) {
         node.data(blocks)
             .enter()
             .append("svg:g")
