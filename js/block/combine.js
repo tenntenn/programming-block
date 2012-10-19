@@ -1,8 +1,8 @@
 /**
  * 結合ブロック
- * @param {Array<sb.connection>} connections
+ * @param {Array<pb.model.Connection>} connections
  */
-pb.Combine = function(connections) {
+pb.model.Combine = function(connections) {
 
     var i;
     
@@ -10,162 +10,142 @@ pb.Combine = function(connections) {
     
     var connectionList = [];
     // 接続を記憶
-    for (i = 0; i < connections.length; i++) {
-        connectionList[i] = {
-            pin : {
-                connector : connections[i].pin,
-                owner : connections[i].pin.owner,
-                id : connections[i].pin.id
-            },
-            socket : {
-                connector : connections[i].socket.owner,
-                owner : connections[i].socket.owner,
-                id : connections[i].socket.id
-            }
-        };
-    }
+    connections.forEach(function(connection, index){
+    	connectionList[index] = {
+    		pin : {
+    			connector : connection.pin
+    		},
+    		socket : {
+    			connector : connection.socket
+    		}
+    	};
+    });
     
-    var removeConnector = function(array, connector) {
-        var i;
-        for (i = array.length - 1; i >= 0; i--) {
-            if (array[i] === connector) {
-                array.splice(i, 1);
-            }
-        }
-        return array;
-    };
-    
-    var exists = function(array, element) {
-        var i;
-        for (i = 0; i < array.length; i++) {
-            if (array[i] === element) {
-                return true;
-            }
-        }
-        return false;
-    };
-    
+    // ユニーク配列にする
     var toUniqueArray = function(array) {
         var i;
         var uniqueArray = [];
         for (i = 0; i < array.length; i++) {
-            if (!exists(uniqueArray, array[i])) {
-                uniqueArray.push(array[i]);
-            }
+        	if (uniqueArray.every(
+        			function(element){
+        				return element !== array[i];
+        			}
+        	)) {
+        		uniqueArray.push(array[i]);
+        	}
         }
         return uniqueArray;
     };
     
-    var findIndexByBlock = function(array, block) {
-        var i;
-        for (i = 0; i < array.length; i++) {
-            if (array[i].block === block) {
-                return i;
-            }
-        }
-        return -1;
-    };
-    
-    
-    // 入力ブロック
+    // 入力ブロックと出力ブロックの全てのコネクタ情報
     var pinBlocks = [];
     var socketBlocks = [];
-    for (i = 0; i < connections.length; i++) {
-        if (findIndexByBlock(pinBlocks, connections[i].pin.owner) == -1) {
-            pinBlocks.push({
-                block : connections[i].pin.owner,
-                connect : [],
-                unconnect : []
-               } );
-           }
-           if (findIndexByBlock(socketBlocks, connections[i].socket.owner) == -1) {
-            socketBlocks.push({
-                block : connections[i].socket.owner,
-                connect : [],
-                unconnect : []
-               } );
-           }
-    }
+    connections.forEach(function(connection){
+    	if (pinBlocks.every(
+    			function(block) {
+    				return block.block !== connection.pin.owner; 
+    			})) {
+    		pinBlocks.push({
+    			block : connection.pin.owner,
+    			connect : [],
+    			unconnect : []
+    		});
+    	}
+    	
+    	if (socketBlocks.every(
+    			function(block){
+    				return block.block !== connection.socket.owner;
+    			})) {
+    		socketBlocks.push({
+    			block : connection.socket.owner,
+    			connect : [],
+    			unconnect : []
+    		});
+    	}
+    });
     
-    (function() {
-        var i, j;
-        var pinBlockIndex;
-        var socketBlockIndex;
-        
-        for (i = 0; i < connections.length; i++) {
-            pinBlockIndex = findIndexByBlock(pinBlocks, connections[i].pin.owner);
-            pinBlocks[pinBlockIndex].connect.push(connections[i].pin.id);
-            
-            socketBlockIndex = findIndexByBlock(socketBlocks, connections[i].socket.owner);
-            socketBlocks[socketBlockIndex].connect.push(connections[i].socket.id);
-        }
-        
-        for (i = 0; i < pinBlocks.length; i++) {
-            for (j = 0; j < pinBlocks[i].block.outputs.length; j++) {
-                if (!exists(pinBlocks[i].connect, j)) {
-                    pinBlocks[i].unconnect.push(j);
-                }
-            }
-            pinBlocks[i].connect.sort;
-        }
-        for (i = 0; i < socketBlocks.length; i++) {
-            for (j = 0; j < socketBlocks[i].block.inputs.length; j++) {
-                if (!exists(socketBlocks[i].connect, j)) {
-                    socketBlocks[i].unconnect.push(j);
-                }
-            }
-            socketBlocks[i].connect.sort;
-        }
+    // 入力ブロックのコネクタ情報を求める
+    pinBlocks.forEach(function(pinBlock){
+    	pinBlock.block.outputs.forEach(function(outputConnector){
+    		if (pinBlock.connect.indexOf(outputConnector) == -1) {
+    			pinBlock.connect.push(outputConnector);
+    		} else {
+    			pinBlock.unconnect.push(outputConnector);
+    		}     			
+    	});
+    });
+    // 出力ブロックのコネクタ情報を求める
+    socketBlocks.forEach(function(socketBlock){
+    	socketBlock.block.inputs.forEach(function(inputConnector){
+			if (socketBlock.connect.indexOf(inputConnector) == -1) {
+				socketBlock.connect.push(inputConnector);
+			} else {
+				socketBlock.unconnect.push(inputConnector);
+			}     			
+		});
+	});
+	
+    
+    // まとめたブロックの入力と出力コネクタを得る
+    this.inputs = [];
+    this.outputs = [];
+    
+    (function(){
+    	var inputConnectorFuncs = [];
+    	var outputConnectorFuncs = [];
+    	// ブロックのコネクタのうち接続がないものだけを、いれる
+    	
+    	// ブロックから、接続のないコネクタを作る関数を取得
+    	var connectorSearch = function(connectBlock) {
+    		connectBlock.block.inputs.forEach(
+    				function(inputConnector){
+    					if (connectBlock.connect.indexOf(inputConnector) == -1) {
+    						inputConnectorFuncs.push(pb.model.connector(
+    								inputConnector.name, 
+    								inputConnector.type,
+    								inputConnector.tag));
+    					}
+    				}
+    		);
+    		
+    		connectBlock.block.outputs.forEach(
+    				function(outputConnector){
+    					if (connectBlock.connect.indexOf(outputConnector) == -1) {
+    						outputConnectorFuncs.push(pb.model.connector(
+    								outputConnector.name, 
+    								outputConnector.type,
+    								outputConnector.tag));
+    					}
+    				}
+    		);
+    	};
+    	
+    	pinBlocks.forEach(connectorSearch);
+    	socketBlocks.forEach(connectorSearch);
+    	
+    	// input
+    	for (i = 0; i < inputConnectorFuncs.length; i++) {
+    		that.inputs[i] = inputConnectorFuncs[i](that, i);
+    	}
+    	
+    	// output
+    	this.outputs = [];
+    	for (i = 0; i < outputConnectorFuncs.length; i++) {
+    		that.outputs[i] = outputConnectorFuncs[i](that, i);
+    	};
+    	
     })();
     
     
-    // inputs, outputs
-    this.inputs = [];
-    this.outputs = [];
-    for (i = 0; i < pinBlocks.length; i++) {
-        this.inputs = this.inputs.concat(pinBlocks[i].block.inputs);
-        this.outputs = this.outputs.concat(pinBlocks[i].block.outputs);
-    }
-    for (i = 0; i < socketBlocks.length; i++) {
-        this.inputs = this.inputs.concat(socketBlocks[i].block.inputs);
-        this.outputs = this.outputs.concat(socketBlocks[i].block.outputs);
-    }
-    for (i = 0; i < connections.length; i++) {
-        this.inputs = removeConnector(this.inputs, connections[i].socket);
-        this.outputs = removeConnector(this.outputs, connections[i].pin);
-    }
-    for (i = 0; i < this.inputs.length; i++) {
-        this.inputs[i].owner = that;
-        this.inputs[i].id = i;
-    }
-    for (i = 0; i < this.outputs.length; i++) {
-        this.outputs[i].owner = that;
-        this.outputs[i].id = i;
-    }
-    
-
     // blocks
-    this.blocks = [];
-    for (i = 0; i < connections.length; i++) {
-        this.blocks = this.blocks.concat(connections[i].pin.owner.blocks);
-    }
-    for (i = 0; i < connections.length; i++) {
-        this.blocks = this.blocks.concat(connections[i].socket.owner.blocks);
-    }
-    this.blocks = toUniqueArray(this.blocks);
-    
-    var findConnectionBySocket = function(owner, id){
-        var i;
-        for (i = 0; i < connectionList.length; i++) {
-            if (connectionList[i].socket.owner === owner
-                 && connectionList[i].socket.id === id) {
-                
-                return connectionList[i].pin;
-            }
-        }
-        return -1;
-    };
-    
+    var allBlocks = [];
+    connections.forEach(function(connection){
+    	allBlocks = allBlocks.concat(connection.pin.owner.blocks);
+    });
+    connections.forEach(function(connection){
+    	allBlocks = allBlocks.concat(connection.socket.owner.blocks);
+    });
+    this.blocks = toUniqueArray(allBlocks);
     
     // func
     this.func = function(input){
@@ -176,55 +156,75 @@ pb.Combine = function(connections) {
         // ブロックごとに分割した入力
         var sourceInputSets = [];
         var destInputSets = [];
+        /*
         (function(){
-            var inputIndex = 0;
-            var inputNum;
-            for (i = 0; i < pinBlocks.length; i++) {
-                inputNum = pinBlocks[i].block.inputs.length;
-                sourceInputSets[i] = input.slice(inputIndex, inputIndex + inputNum);
-                inputIndex += inputNum;
-            }
-            for (i = 0; i < socketBlocks.length; i++) {
-                inputNum = socketBlocks[i].unconnect.length;
-                destInputSets[i] = input.slice(inputIndex, inputIndex + inputNum);
-                inputIndex += inputNum;
-            }
+        	var inputIndex = 0;
+        	var inputNum;
+        	for(i=0;i < pinBlocks.length; i++) {
+        		inputNum = pinBlocks[i].block.inputs.length;
+        		soruceInputSets[i] = input.slice(inputIndex, inputIndex + inputNum);
+        		inputIndex += inputNum;
+        	}
+        	for(i=0;i < socketBlocks.length; i++) {
+        		inputNum = socketBlocks[i].block.inputs.length;
+        		destInputSets[i] = input.slice(inputIndex, inputIndex + inputNum);
+        		inputIndex += inputNum;
+        	}
         })();
+        */
+        pinBlocks.forEach(function(connectBlock, index) {
+        	sourceInputSets[index] = input.splice(0, connectBlock.block.inputs.length);
+        });
         
-        // 雄ブロック側の計算
+        socketBlocks.forEach(function(connectBlock, index) {
+        	destInputSets[index] = input.splice(0, connectBlock.unconnect.length);
+        });
+        
+        // 雄(入力)ブロック側の計算
         var sourceResults = [];
-        for (i = 0; i < pinBlocks.length; i++) {
-            sourceResults[i] = pinBlocks[i].block.func(sourceInputSets[i]);
-        }
+        pinBlocks.forEach(function(pinBlock, index){
+        	sourceResults[index] = pinBlock.block.func(sourceInputSets[index]);
+        });
         
-        // 雄ブロックの計算結果を、雌ブロックの入力へ差し込む
+        
+        // 入力ブロックの計算結果を、出力ブロックの入力へ差し込む
         (function() {
             var i, j;
-            var socket;
-            var pin;
-            var pinIndex;
-            var connectedPosition;
+                        
+            socketBlocks.forEach(function(socketBlock, index){
+            	
+            	socketBlock.connect.forEach(function(connectedSocketConnector){
+            		
+            		var pinConnector = (function(block, connector) {
+            			var i;
+            			for (i = 0; i < connectionList.length; i++){
+            				if (connectionList[i].socket.connector === connector) {
+            					return connectionList[i].pin.connector;
+            				} 
+            			}
+            		})(socketBlock, connectedSocketConnector);
+            		
+            		var connectedPosition = connectedSocketConnector.id;
+            		
+            		var pinBlockIndex = (function(){
+            			var i;
+            			for (i = 0; i < pinBlocks.length; i++) {
+            				if (pinBlocks[i].block === pinConnector.owner) {
+            					return i;
+            				}
+            			}
+            			return -1;
+            		})();
+            		
+            		// 出力ブロックの入力に差し込む
+            		destInputSets[index].splice(
+            				connectedPosition,
+            				0,
+            				sourceResults[pinBlockIndex].slice(pinConnector.id, pinConnector.id + 1)[0]);
+            	});
+            });
             
-        	// 雄ブロックの入力から削除する予定の pin コネクタの index
-            // 雄ブロックごとに記憶
-            var deleteSourceResults = [];
-            for (i = 0; i < pinBlocks.length; i++) {
-            	deleteSourceResults[i] = []; 
-            }
-            
-            for (i = 0; i < socketBlocks.length; i++) {
-                socket = socketBlocks[i].block;
-                for (j = 0; j < socketBlocks[i].connect.length; j++) {
-                    connectedPosition = socketBlocks[i].connect[j];
-                    pin = findConnectionBySocket(socket, connectedPosition);
-                    
-                    pinIndex = findIndexByBlock(pinBlocks, pin.owner);
-                    
-                    destInputSets[i].splice(connectedPosition, 0, sourceResults[pinIndex].slice(pin.id, pin.id + 1)[0]);
-                }
-            }
-            
-            // 差し込んだ雄ブロックの出力を削除            
+            // 差し込んだ雄ブロックの出力を削除
             for (i = 0; i < pinBlocks.length; i++) {
                 for (j = pinBlocks[i].connect.length - 1; j >= 0; j--) {
                     sourceResults[i].splice(pinBlocks[i].connect[j], 1);
@@ -235,16 +235,15 @@ pb.Combine = function(connections) {
         // 雌ブロックの計算
         var destResults = [];
         for (i = 0; i < socketBlocks.length; i++) {
-            destResults = socketBlocks[i].block.func(destInputSets[i]);
+        	destResults = socketBlocks[i].block.func(destInputSets[i]);
         }
         
         for (i = 0; i < sourceResults.length; i++) {
-            result = result.concat(sourceResults[i]);
+        	result = result.concat(sourceResults[i]);
         }
-         for (i = 0; i < destResults.length; i++) {
-             result = result.concat(destResults[i]);
-         }
+        for (i = 0; i < destResults.length; i++) {
+        	result = result.concat(destResults[i]);
+        }
         return result;
     };
 };
-

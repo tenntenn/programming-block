@@ -2,14 +2,8 @@
 
 pushd `dirname $0` > /dev/null
 
-blockFiles=""
-blockJsDir="../../../js/block/*.js"
 
-for i in `ls $blockJsDir`
-do
-    blockFiles="$blockFiles $i"
-done
-
-cat ../../../js/package.js $blockJsDir blockTest.js | node
+blockJsFiles="../../../js/block/model.js ../../../js/block/connector.js ../../../js/block/connection.js ../../../js/block/block.js ../../../js/block/combine.js"    
+cat ../../../js/package.js $blockJsFiles blockTest.js | node
 popd > /dev/null
 

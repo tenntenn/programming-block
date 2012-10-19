@@ -1,9 +1,9 @@
 /**
- * 接続
- * @param {sb.Connector} pin
- * @param {sb.Connector} socket
+ * 接続を表すクラス
+ * @param {pb.model.Connector} pin
+ * @param {pb.model.Connector} socket
  */
-pb.Connection = function(pin, socket) {
+pb.model.Connection = function(pin, socket) {
     this.pin = pin;
     this.socket = socket;
 };
