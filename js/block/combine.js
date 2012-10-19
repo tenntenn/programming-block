@@ -21,13 +21,14 @@ pb.model.Combine = function(connections) {
     	};
     });
     
+    // ユニーク配列にする
     var toUniqueArray = function(array) {
         var i;
         var uniqueArray = [];
         for (i = 0; i < array.length; i++) {
-        	if (array.every(
+        	if (uniqueArray.every(
         			function(element){
-        				return element !== uniqueArray[i];
+        				return element !== array[i];
         			}
         	)) {
         		uniqueArray.push(array[i]);
@@ -42,7 +43,7 @@ pb.model.Combine = function(connections) {
     connections.forEach(function(connection){
     	if (pinBlocks.every(
     			function(block) {
-    				return block.block !== connection; 
+    				return block.block !== connection.pin.owner; 
     			})) {
     		pinBlocks.push({
     			block : connection.pin.owner,
@@ -53,7 +54,7 @@ pb.model.Combine = function(connections) {
     	
     	if (socketBlocks.every(
     			function(block){
-    				return block.block !== connection;
+    				return block.block !== connection.socket.owner;
     			})) {
     		socketBlocks.push({
     			block : connection.socket.owner,
@@ -155,15 +156,30 @@ pb.model.Combine = function(connections) {
         // ブロックごとに分割した入力
         var sourceInputSets = [];
         var destInputSets = [];
-        
+        /*
+        (function(){
+        	var inputIndex = 0;
+        	var inputNum;
+        	for(i=0;i < pinBlocks.length; i++) {
+        		inputNum = pinBlocks[i].block.inputs.length;
+        		soruceInputSets[i] = input.slice(inputIndex, inputIndex + inputNum);
+        		inputIndex += inputNum;
+        	}
+        	for(i=0;i < socketBlocks.length; i++) {
+        		inputNum = socketBlocks[i].block.inputs.length;
+        		destInputSets[i] = input.slice(inputIndex, inputIndex + inputNum);
+        		inputIndex += inputNum;
+        	}
+        })();
+        */
         pinBlocks.forEach(function(connectBlock, index) {
         	sourceInputSets[index] = input.splice(0, connectBlock.block.inputs.length);
         });
         
         socketBlocks.forEach(function(connectBlock, index) {
-        	destInputSets[index] = input.splice(0, connectBlock.block.inputs.length);
+        	destInputSets[index] = input.splice(0, connectBlock.unconnect.length);
         });
-                
+        
         // 雄(入力)ブロック側の計算
         var sourceResults = [];
         pinBlocks.forEach(function(pinBlock, index){
