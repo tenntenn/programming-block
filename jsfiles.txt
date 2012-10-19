@@ -1,3 +1,6 @@
 js/package.js
 js/view/view.js
+js/block/connector.js
+js/block/connection.js
 js/block/block.js
+js/block/combine.js

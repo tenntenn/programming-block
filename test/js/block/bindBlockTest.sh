@@ -10,6 +10,10 @@ do
     blockFiles="$blockFiles $i"
 done
 
-cat ../../../js/package.js $blockJsDir blockTest.js | node
-popd > /dev/null
+xBindingJs="x-binding.js"
 
+cat ../../../js/package.js $blockJsDir $xBindingJs bindBlock.js > tmp.js
+
+cat tmp.js | node
+
+popd > /dev/null
