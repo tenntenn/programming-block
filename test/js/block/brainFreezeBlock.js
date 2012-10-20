@@ -11,52 +11,52 @@ var numberTerminals = (function(){
     var connectors = (function(){
 	var conR = [];
 	for (i = 0; i < numbers.length; i++) {
-	    conR[i] = new pb.Connector(numbers[i], "int", []);
+	    conR[i] = new pb.model.connector(numbers[i], "int", []);
 	}
 	return conR
     })();
     
-    results[0] = new pb.Block( 
+    results[0] = new pb.model.Block( 
 	[], [connectors[0]], function(input){
 	    return [ 0 ];
 	}
     );
-    results[1] = new pb.Block( 
+    results[1] = new pb.model.Block( 
 	[], [connectors[1]], function(input){
 	    return [ 1 ];
 	}
     );
-    results[2] = new pb.Block( 
+    results[2] = new pb.model.Block( 
 	[], [connectors[2]], function(input){
 	    return [ 2 ];
 	}
     );
-    results[3] = new pb.Block( 
+    results[3] = new pb.model.Block( 
 	[], [connectors[3]], function(input){
 	    return [ 3 ];
 	}
     );
-    results[4] = new pb.Block( 
+    results[4] = new pb.model.Block( 
 	[], [connectors[4]], function(input){
 	    return [ 4 ];
 	}
     );
-    results[5] = new pb.Block( 
+    results[5] = new pb.model.Block( 
 	[], [connectors[5]], function(input){
 	    return [ 5 ];
 	}
     );
-    results[6] = new pb.Block( 
+    results[6] = new pb.model.Block( 
 	[], [connectors[6]], function(input){
 	    return [ 6 ];
 	}
     );
-    results[7] = new pb.Block( 
+    results[7] = new pb.model.Block( 
 	[], [connectors[7]], function(input){
 	    return [ 7 ];
 	}
     );
-    results[8] = new pb.Block( 
+    results[8] = new pb.model.Block( 
 	[], [connectors[8]], function(input){
 	    return [ 8 ];
 	}
@@ -83,7 +83,7 @@ var calcLinesInConnectors = (function(){
 		 "left", "center", "right", 
 		 "leftBelow", "below", "rightBelow"];
     for (i = 0; i < names.length; i++) {
-	inCons[i] = new pb.Connector(names[i], "int", ["cell"]);
+	inCons[i] = new pb.model.connector(names[i], "int", ["cell"]);
     }
     return inCons;
 })();
@@ -96,13 +96,13 @@ var calcLinesOutConnectors = (function(){
 		 "rightDownLine", "rightUpLine",
 		 "upperLine", "centerLine", "belowLine"];
     for (i = 0; i < names.length; i++) {
-	outCons[i] = new pb.Connector(names[i], "int", ["line"]);
+	outCons[i] = new pb.model.connector(names[i], "int", ["line"]);
     }
     return outCons;
 })();
 
 // 行、列、斜めの計算ブロック
-var calcLine = new pb.Block(
+var calcLine = new pb.model.Block(
     calcLinesInConnectors, calcLinesOutConnectors, 
     function(input) {
 	return [
@@ -129,11 +129,11 @@ var mekeNInputsCheck = function(n){
     var i;
     inputs = [];
     for (i = 0; i < n; i++) {
-	inputs[i] = new pb.Connector("input", "obj", []);
+	inputs[i] = new pb.model.connector("input", "obj", []);
     }
     return {
 	inputs : inputs,
-	result : new pb.Connector("result", "bool", ["kekka"]),
+	result : new pb.model.connector("result", "bool", ["kekka"]),
 	func : function(input) {
 	    var i, j;
 	    for (i = 0; i < input.length - 1; i++) {
@@ -155,7 +155,7 @@ var sameBlocks = function(n, num){
     var block;
     for (i = 0; i < num; i++){
 	block = mekeNInputsCheck(n);
-	result[i] = new pb.Block(
+	result[i] = new pb.model.Block(
 	    block.inputs,
 	    [block.result],
 	    block.func
@@ -184,22 +184,22 @@ for(i = 0; i < threeSameBlocks.length; i++) {
 // 後ろのほうから接続
 var connections3 = (function() {
     var results = [];
-    results[0] = new pb.Connection(
+    results[0] = new pb.model.Connection(
 	threeSameBlocks[0].outputs[0],
 	threeSameBlocks[2].inputs[0]
     );
-    results[1] = new pb.Connection(
+    results[1] = new pb.model.Connection(
 	twoSameBlocks[0].outputs[0],
 	threeSameBlocks[2].inputs[1]
     );
-    results[2] = new pb.Connection(
+    results[2] = new pb.model.Connection(
 	threeSameBlocks[1].outputs[0],
 	threeSameBlocks[2].inputs[2]
     );
     return results;
 })();
 
-var cb1 = new pb.Combine(connections3);
+var cb1 = new pb.model.Combine(connections3);
 
 console.log("-------------- cb1 ------------");
 testInput = ["aaa", "aaa", "aaa", "bbb", "bbb", "ccc", "ccc", "ccc"];
@@ -216,14 +216,14 @@ var connections2 = (function(){
     var results = [];
     var i;
     for (i = 0; i < 8; i++) {
-	results[i] = new pb.Connection(
+	results[i] = new pb.model.Connection(
 	    calcLine.outputs[i],
 	    cb1.inputs[i]
 	);
     }
     return results;
 })();
-var cb2 = new pb.Combine(connections2);
+var cb2 = new pb.model.Combine(connections2);
 
 
 console.log("----------- cb2 ----------");
@@ -241,46 +241,46 @@ var connections1 = (function(){
     var i;
     var results = [];
     
-    results[0] = new pb.Connection(
+    results[0] = new pb.model.Connection(
 	numberTerminals[7].outputs[0],
 	cb2.inputs[0]
     );
-    results[1] = new pb.Connection(
+    results[1] = new pb.model.Connection(
 	numberTerminals[0].outputs[0],
 	cb2.inputs[1]
     );
-    results[2] = new pb.Connection(
+    results[2] = new pb.model.Connection(
 	numberTerminals[5].outputs[0],
 	cb2.inputs[2]
     );
-    results[3] = new pb.Connection(
+    results[3] = new pb.model.Connection(
 	numberTerminals[2].outputs[0],
 	cb2.inputs[3]
     );
-    results[4] = new pb.Connection(
+    results[4] = new pb.model.Connection(
 	numberTerminals[4].outputs[0],
 	cb2.inputs[4]
     );
-    results[5] = new pb.Connection(
+    results[5] = new pb.model.Connection(
 	numberTerminals[6].outputs[0],
 	cb2.inputs[5]
     );
-    results[6] = new pb.Connection(
+    results[6] = new pb.model.Connection(
 	numberTerminals[3].outputs[0],
 	cb2.inputs[6]
     );
-    results[7] = new pb.Connection(
+    results[7] = new pb.model.Connection(
 	numberTerminals[8].outputs[0],
 	cb2.inputs[7]
     );
-    results[8] = new pb.Connection(
+    results[8] = new pb.model.Connection(
 	numberTerminals[1].outputs[0],
 	cb2.inputs[8]
     );
     
     return results;
 })();
-var cb3 = new pb.Combine(connections1);
+var cb3 = new pb.model.Combine(connections1);
 
 console.log("-------magic square-------");
 testInput = [];
