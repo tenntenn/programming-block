@@ -4,14 +4,20 @@ define(
 	function() {
 
 		/**
-		 * コネクタ
+		 * コネクタです。
+		 * ブックの接続部分を表します。
+		 * 入力と出力の両方に使用されます。
+		 * @class Connector
+		 * @namespace pb.model
+		 * @constructor
+		 *
 		 * @param {String} name 生成するConnectorの名前
 		 * @param {String} type 生成するConnectorの型
-		 * @param {Array<string>} tags 生成するConnectorのタグ(メタ情報)
-		 * @param {pb.model.Block} block 配置されるブロック
+		 * @param {Array<String>} tags 生成するConnectorのタグ(メタ情報)
+		 * @param {pb.model.Block} owner 配置されるブロック
 		 * @param {Number} id ブロック内でのコネクタ番号
 		 */
-		function Connector(name, type, tags, block, id) {
+		function Connector(name, type, tags, owner, id) {
 
 			var that = this;
 
@@ -45,10 +51,10 @@ define(
 			/**
 			 * Connectorが配置されているブロックです。
 			 * @private
-			 * @property block
+			 * @property owner
 			 * @type {pb.model.Block}
 			 */
-			_.owner = block;
+			_.owner = owner;
 
 			/*
 			 * ブロック内でのConnector番号です。
@@ -60,6 +66,8 @@ define(
 
 			/**
 			 * Connectorの名前を取得します。
+			 * @public
+			 * @method getName
 			 * @return Connectorの名前
 			 */
 			that.getName = function(){
@@ -68,6 +76,8 @@ define(
 
 			/**
 			 * Connectorの型を取得します。
+			 * @public
+			 * @method getType
 			 * @return Connectorの型を取得します。
 			 */
 			that.getType = function(){
@@ -76,6 +86,8 @@ define(
 
 			/**
 			 * Connectorのタグ(メタ情報)を取得します。
+			 * @public
+			 * @method getTags
 			 * @return Connectorのタグ(メタ情報)
 			 */
 			that.getTags = function(){
@@ -84,14 +96,18 @@ define(
 
 			/**
 			 * Connectorが配置されているブロックを取得します。
+			 * @public
+			 * @method getOwner
 			 * @return Connectorが配置されているブロック
 			 */
-			that.getBlock = function(){
-				return _.block;
+			that.getOwner= function(){
+				return _.owner;
 			};
 
-			/*
+			/**
 			 * ブロック内でのConnector番号を取得します。
+			 * @public
+			 * @method getId
 			 * @return ブロック内でのConnector番号
 			 */
 			that.getId = function(){
