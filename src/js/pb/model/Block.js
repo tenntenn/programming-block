@@ -5,6 +5,10 @@ define(
 
 		/**
 	 	 * 結合されていないブロックです。
+		 * @class Block
+		 * @namespace pb.model
+		 * @constructor
+		 *
 	 	 * @param {Array<pb.model.ConnectorFactory>} inputConnectorFactories 入力用のConnectorを生成するファクトリ
 	 	 * @param {Array<pb.model.ConnectorFactory>} outputConnectorFactories 出力用のConnectorを生成するファクトリ
 	 	 * @param {Function} func ブロックが行なう処理
@@ -69,6 +73,7 @@ define(
 			 * 入力Connectorを取得します。
 			 * @public
 			 * @method getInputs
+			 * @return {Array<pb.model.Connector>} 入力Connectorの配列
 			 */
 			that.getInputs = function() {
 				return _.inputs.slice(0);
@@ -78,6 +83,7 @@ define(
 			 * 出力Connectorを取得します。
 			 * @public
 			 * @method getOutputs
+			 * @return {Array<pb.model.Connector>} 出力Connectorの配列
 			 */
 			that.getOutputs = function() {
 				return _.outputs.slice(0);
@@ -87,6 +93,7 @@ define(
 			 * ブロックが行なう処理を取得します。
 			 * @public
 			 * @method getFunc
+			 * @return {Function} ブロックが行なう処理
 			 */
 			that.getFunc = function() {
 				return _.func;
@@ -96,6 +103,7 @@ define(
 			 * 結合元のブロックを取得します。
 			 * @public
 			 * @method getCombinedBlocks
+			 * @return {Array<pb.model.Block>} 結合元のブロックの配列
 			 */
 			that.getCombinedBlocks = function() {
 				return _.combinedBlocks.slice(0);
