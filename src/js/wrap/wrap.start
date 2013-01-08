@@ -1,0 +1,4 @@
+(function (root, factory) {
+        // Browser globals
+        root.sb = factory();
+}(this, function () {
