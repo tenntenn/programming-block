@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Test of Programming Block</title>
+        <link rel="stylesheet" href="css/mocha.css" />
+
+		<script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/mocha.js"></script>
+        <script src="js/chai.js"></script>
+		<script src="js/require.js"></script>
+
+        <!-- setup mocha -->
+        <script>
+            mocha.ui('bdd');
+            mocha.timeout(2000);
+            expect = chai.expect;
+        </script>
+
+        <!-- target file -->
+		<script>
+
+			require.config({
+				baseUrl: "..",
+				paths:{
+					"pb": "src/js/pb",
+					"spec": "test/spec"
+				}
+			});
+
+			require(['spec/main']);
+
+		</script>
+    </head>
+
+    <body>
+        <div id="mocha">
+        </div>
+    </body>
+</html>
