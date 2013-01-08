@@ -60,7 +60,8 @@ define(
 
 	    /**
 	     * Connectorの名前を取得します。
-	     * @return Connectorの名前
+	     * @method getName
+	     * @return {String} Connectorの名前
 	     */
 	    that.getName = function(){
 		return _.name;
@@ -68,7 +69,8 @@ define(
 	    
 	    /**
 	     * Connectorの型を取得します。
-	     * @return Connectorの型を取得します。
+	     * @method getType
+	     * @return {String} Connectorの型を取得します。
 	     */
 	    that.getType = function(){
 		return _.type;
@@ -76,7 +78,8 @@ define(
 
 	    /**
 	     * Connectorのタグ(メタ情報)を取得します。
-	     * @return Connectorのタグ(メタ情報)
+	     * @method getTags
+	     * @return {Array<String>} Connectorのタグ(メタ情報)
 	     */
 	    that.getTags = function(){
 		return _.tags;
@@ -84,7 +87,8 @@ define(
 
 	    /**
 	     * Connectorが配置されているブロックを取得します。
-	     * @return Connectorが配置されているブロック
+	     * @method getBlock
+	     * @return {pb.model.Block} Connectorが配置されているブロック
 	     */
 	    that.getBlock = function(){
 		return _.block;
@@ -92,7 +96,8 @@ define(
 
 	    /*
 	     * ブロック内でのConnector番号を取得します。
-	     * @return ブロック内でのConnector番号
+	     * @method getId
+	     * @return {Number} ブロック内でのConnector番号
 	     */	    
 	    that.getId = function(){
 		return _.id;
