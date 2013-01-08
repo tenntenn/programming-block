@@ -4,23 +4,23 @@ define(
 	function() {
 
 		/**
-	 	 * 結合されていないブロックです。
+		 * 結合されていないブロックです。
 		 * @class Block
 		 * @namespace pb.model
 		 * @constructor
 		 *
-	 	 * @param {Array<pb.model.ConnectorFactory>} inputConnectorFactories 入力用のConnectorを生成するファクトリ
-	 	 * @param {Array<pb.model.ConnectorFactory>} outputConnectorFactories 出力用のConnectorを生成するファクトリ
-	 	 * @param {Function} func ブロックが行なう処理
+		 * @param {Array<pb.model.ConnectorFactory>} inputConnectorFactories 入力用のConnectorを生成するファクトリ
+		 * @param {Array<pb.model.ConnectorFactory>} outputConnectorFactories 出力用のConnectorを生成するファクトリ
+		 * @param {Function} func ブロックが行なう処理
 		 * @param {Array<pb.model.Block>} [combinedBlocks] 結合元のブロック
-	 	 */
+		 */
 		function Block(inputConnectorFactories, outputConnectorFactories, func, combinedBlocks) {
-			
+
 			// 引数チェック
-			if (!Array.isArray(inputConnectors)) {
-				throw new Exception("first argument must be Array.");
-			} else if (!Array.isArray(outputConnectors)) {
-				throw new Exception("second argument must be Array.");
+			if (!Array.isArray(inputConnectorFactories)) {
+				throw "first argument must be Array.";
+			} else if (!Array.isArray(outputConnectorFactories)) {
+				throw "second argument must be Array.";
 			}
 
 			// オブジェクト
