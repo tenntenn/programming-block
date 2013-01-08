@@ -87,11 +87,11 @@ define(
 
 	    /**
 	     * Connectorが配置されているブロックを取得します。
-	     * @method getBlock
+	     * @method getOwner
 	     * @return {pb.model.Block} Connectorが配置されているブロック
 	     */
-	    that.getBlock = function(){
-		return _.block;
+	    that.getOwner = function(){
+		return _.owner;
 	    }
 
 	    /*
