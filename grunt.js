@@ -83,6 +83,7 @@ module.exports = function(grunt) {
 			globals: {
 				"console":true,
 				"pb": true,
+				"sb": true,
 				"ko": true,
 				"define": true
 			}
