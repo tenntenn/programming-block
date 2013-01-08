@@ -16,10 +16,14 @@
             mocha.timeout(2000);
             expect = chai.expect;
         </script>
+    </head>
+
+    <body>
+        <div id="mocha">
+        </div>
 
         <!-- target file -->
 		<script>
-
 			require.config({
 				baseUrl: "..",
 				paths:{
@@ -31,10 +35,6 @@
 			require(['spec/main']);
 
 		</script>
-    </head>
-
-    <body>
-        <div id="mocha">
-        </div>
     </body>
+
 </html>
