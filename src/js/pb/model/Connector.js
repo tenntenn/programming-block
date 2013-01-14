@@ -68,7 +68,7 @@ define(
 			 * Connectorの名前を取得します。
 			 * @public
 			 * @method getName
-			 * @return Connectorの名前
+			 * @return {String} Connectorの名前
 			 */
 			that.getName = function(){
 				return _.name;
@@ -78,7 +78,7 @@ define(
 			 * Connectorの型を取得します。
 			 * @public
 			 * @method getType
-			 * @return Connectorの型を取得します。
+			 * @return {String} Connectorの型を取得します。
 			 */
 			that.getType = function(){
 				return _.type;
@@ -87,7 +87,7 @@ define(
 			/**
 			 * Connectorのタグ(メタ情報)を取得します。
 			 * @public
-			 * @method getTags
+			 * @method {Array<String>} getTags
 			 * @return Connectorのタグ(メタ情報)
 			 */
 			that.getTags = function(){
@@ -98,7 +98,7 @@ define(
 			 * Connectorが配置されているブロックを取得します。
 			 * @public
 			 * @method getOwner
-			 * @return Connectorが配置されているブロック
+			 * @return {pb.model.Block} Connectorが配置されているブロック
 			 */
 			that.getOwner= function(){
 				return _.owner;
@@ -108,11 +108,42 @@ define(
 			 * ブロック内でのConnector番号を取得します。
 			 * @public
 			 * @method getId
-			 * @return ブロック内でのConnector番号
+			 * @return {Number} ブロック内でのConnector番号
 			 */
 			that.getId = function(){
 				return _.id;
 			};
+
+			/**
+			 * Connectorが入力コネクタかどうか取得します。
+			 * @public
+			 * @method isInput
+			 * @return {Boolean} 入力コネクタである場合は、true
+			 */
+			that.isInput = function(){
+				var connectorIndex = _.owner.getInputs().indexOf(that);
+
+				if (connectorIndex < 0) {
+					return false;
+				}
+				return true;
+			};
+
+			/**
+			 * Connectorが出力コネクタかどうか取得します。
+			 * @public
+			 * @method isOutput
+			 * @return {Boolean} 出力コネクタである場合は、true
+			 */
+			that.isOutput = function(){
+				var connectorIndex = _.owner.getOutputs().indexOf(that);
+
+				if (connectorIndex < 0) {
+					return false;
+				}
+				return true;
+			};
+
 		}
 		return Connector;
 	}
