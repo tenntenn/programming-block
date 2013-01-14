@@ -2,7 +2,7 @@ define(
 	"pb.model.Connection",
 	[],
 	function() {
-		
+
 		/**
 		 * 接続を表すクラスです。
 		 * @class Connection

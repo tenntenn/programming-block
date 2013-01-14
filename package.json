@@ -1,6 +1,6 @@
 {
   "author": "Takuya Ueda <uedatakuya@gmail.com> (http://u.hinoichi.net), Yuji Katumata (https://github.com/spd-user)",
-  "name": "Programming Block",
+  "name": "ProgrammingBlock",
   "description": "Programming Block",
   "version": "0.0.1",
   "homepage": "https://github.com/tenntenn/programming-block",
@@ -17,6 +17,7 @@
     "grunt-requirejs": "~0.2.14",
     "grunt-contrib-yuidoc": "~0.3.2",
     "phantomjs":"~0.2.2",
+	"mocha-phantomjs":"~1.1.2",
     "grunt-shell":"~0.1.3"
   },
   "optionalDependencies": {},

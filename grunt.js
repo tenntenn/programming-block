@@ -113,6 +113,9 @@ module.exports = function(grunt) {
 	// Go build
 	grunt.registerTask('go', 'shell:go');
 
+	// copy files to dist
+	grunt.registerTask('copy', 'shell:copy');
+
 	// Default task.
 	grunt.registerTask('default', 'lint requirejs min test');
 
