@@ -1,11 +1,16 @@
 define(
 	"spec/testSample",
-	[],
-	function(){
+	[
+	    "pb/model/ConnectorFactory",
+	    "pb/model/Block"
+	],
+	function(ConnectorFactory, Block) {
 		describe("テストですよー", function(){
-
+		    
 			it('テスト', function(){
-				expect(4).to.equal(5);
+				var cf = new ConnectorFactory("aaaaa", "int", ["test"]);
+				var b = new Block([cf], [cf], function(){return 5;});
+				expect((b.getFunc())()).to.equal(5);
 			});
 		});
 	}
